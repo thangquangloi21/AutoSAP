@@ -1,0 +1,15 @@
+# bỏ qua thư mục
+.venv/
+__pycache_/
+.vscode/
+build/
+dist/
+.idea/
+.Log/
+
+
+# bỏ qua file có đuôi exe
+*.exe
+
+# bỏ qua file cụ thể
+.spec
