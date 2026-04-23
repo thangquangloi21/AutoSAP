@@ -1,0 +1,528 @@
+[2026-03-29 00:01:18] [INFO] Load Dữ liệu xong
+[2026-03-29 00:01:18] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 00:03:55] [INFO] Đẩy thành công
+[2026-03-29 00:03:55] [INFO] Tắt PBI
+[2026-03-29 00:03:55] [INFO] connect success
+[2026-03-29 00:03:55] [INFO] SQL executed successfully
+[2026-03-29 00:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 00:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 00:28:45] [INFO] connect success
+[2026-03-29 00:28:45] [INFO] Dữ liệu gần nhất: ID=1149, SYSTEM=SAP, TIME=00:03 29-03-2026
+[2026-03-29 00:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 00:31:15] [INFO] Load Dữ liệu xong
+[2026-03-29 00:31:16] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 00:34:06] [INFO] Đẩy thành công
+[2026-03-29 00:34:06] [INFO] Tắt PBI
+[2026-03-29 00:34:06] [INFO] connect success
+[2026-03-29 00:34:06] [INFO] SQL executed successfully
+[2026-03-29 00:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 00:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 00:58:45] [INFO] connect success
+[2026-03-29 00:58:45] [INFO] Dữ liệu gần nhất: ID=1150, SYSTEM=SAP, TIME=00:34 29-03-2026
+[2026-03-29 00:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 00:59:27] [INFO] Load Dữ liệu xong
+[2026-03-29 00:59:27] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 01:03:39] [INFO] Đẩy thành công
+[2026-03-29 01:03:39] [INFO] Tắt PBI
+[2026-03-29 01:03:39] [INFO] connect success
+[2026-03-29 01:03:39] [INFO] SQL executed successfully
+[2026-03-29 01:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 01:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 01:28:45] [INFO] connect success
+[2026-03-29 01:28:45] [INFO] Dữ liệu gần nhất: ID=1153, SYSTEM=SAP, TIME=01:03 29-03-2026
+[2026-03-29 01:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 01:30:49] [INFO] Load Dữ liệu xong
+[2026-03-29 01:30:50] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 01:33:41] [INFO] Đẩy thành công
+[2026-03-29 01:33:41] [INFO] Tắt PBI
+[2026-03-29 01:33:41] [INFO] connect success
+[2026-03-29 01:33:42] [INFO] SQL executed successfully
+[2026-03-29 01:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 01:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 01:58:45] [INFO] connect success
+[2026-03-29 01:58:45] [INFO] Dữ liệu gần nhất: ID=1154, SYSTEM=SAP, TIME=01:33 29-03-2026
+[2026-03-29 01:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 02:01:07] [INFO] Load Dữ liệu xong
+[2026-03-29 02:01:08] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 02:03:25] [INFO] Đẩy thành công
+[2026-03-29 02:03:25] [INFO] Tắt PBI
+[2026-03-29 02:03:25] [INFO] connect success
+[2026-03-29 02:03:25] [INFO] SQL executed successfully
+[2026-03-29 02:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 02:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 02:28:45] [INFO] connect success
+[2026-03-29 02:28:45] [INFO] Dữ liệu gần nhất: ID=1157, SYSTEM=SAP, TIME=02:03 29-03-2026
+[2026-03-29 02:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 02:31:08] [INFO] Load Dữ liệu xong
+[2026-03-29 02:31:08] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 02:33:53] [INFO] Đẩy thành công
+[2026-03-29 02:33:53] [INFO] Tắt PBI
+[2026-03-29 02:33:53] [INFO] connect success
+[2026-03-29 02:33:54] [INFO] SQL executed successfully
+[2026-03-29 02:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 02:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 02:58:45] [INFO] connect success
+[2026-03-29 02:58:45] [INFO] Dữ liệu gần nhất: ID=1159, SYSTEM=SAP, TIME=02:33 29-03-2026
+[2026-03-29 02:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 03:01:00] [INFO] Load Dữ liệu xong
+[2026-03-29 03:01:01] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 03:03:26] [INFO] Đẩy thành công
+[2026-03-29 03:03:26] [INFO] Tắt PBI
+[2026-03-29 03:03:26] [INFO] connect success
+[2026-03-29 03:03:26] [INFO] SQL executed successfully
+[2026-03-29 03:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 03:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 03:28:45] [INFO] connect success
+[2026-03-29 03:28:45] [INFO] Dữ liệu gần nhất: ID=1161, SYSTEM=SAP, TIME=03:03 29-03-2026
+[2026-03-29 03:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 03:30:53] [INFO] Load Dữ liệu xong
+[2026-03-29 03:30:54] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 03:33:19] [INFO] Đẩy thành công
+[2026-03-29 03:33:19] [INFO] Tắt PBI
+[2026-03-29 03:33:19] [INFO] connect success
+[2026-03-29 03:33:19] [INFO] SQL executed successfully
+[2026-03-29 03:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 03:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 03:58:45] [INFO] connect success
+[2026-03-29 03:58:45] [INFO] Dữ liệu gần nhất: ID=1163, SYSTEM=SAP, TIME=03:33 29-03-2026
+[2026-03-29 03:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 04:01:02] [INFO] Load Dữ liệu xong
+[2026-03-29 04:01:02] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 04:03:20] [INFO] Đẩy thành công
+[2026-03-29 04:03:20] [INFO] Tắt PBI
+[2026-03-29 04:03:20] [INFO] connect success
+[2026-03-29 04:03:20] [INFO] SQL executed successfully
+[2026-03-29 04:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 04:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 04:28:45] [INFO] connect success
+[2026-03-29 04:28:45] [INFO] Dữ liệu gần nhất: ID=1165, SYSTEM=SAP, TIME=04:03 29-03-2026
+[2026-03-29 04:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 04:31:25] [INFO] Load Dữ liệu xong
+[2026-03-29 04:31:25] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 04:33:44] [INFO] Đẩy thành công
+[2026-03-29 04:33:44] [INFO] Tắt PBI
+[2026-03-29 04:33:44] [INFO] connect success
+[2026-03-29 04:33:44] [INFO] SQL executed successfully
+[2026-03-29 04:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 04:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 04:58:45] [INFO] connect success
+[2026-03-29 04:58:45] [INFO] Dữ liệu gần nhất: ID=1167, SYSTEM=SAP, TIME=04:33 29-03-2026
+[2026-03-29 04:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 05:00:53] [INFO] Load Dữ liệu xong
+[2026-03-29 05:00:54] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 05:03:34] [INFO] Đẩy thành công
+[2026-03-29 05:03:34] [INFO] Tắt PBI
+[2026-03-29 05:03:34] [INFO] connect success
+[2026-03-29 05:03:34] [INFO] SQL executed successfully
+[2026-03-29 05:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 05:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 05:28:45] [INFO] connect success
+[2026-03-29 05:28:45] [INFO] Dữ liệu gần nhất: ID=1168, SYSTEM=SAP, TIME=05:03 29-03-2026
+[2026-03-29 05:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 05:31:04] [INFO] Load Dữ liệu xong
+[2026-03-29 05:31:05] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 05:33:23] [INFO] Đẩy thành công
+[2026-03-29 05:33:23] [INFO] Tắt PBI
+[2026-03-29 05:33:23] [INFO] connect success
+[2026-03-29 05:33:23] [INFO] SQL executed successfully
+[2026-03-29 05:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 05:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 05:58:45] [INFO] connect success
+[2026-03-29 05:58:45] [INFO] Dữ liệu gần nhất: ID=1171, SYSTEM=SAP, TIME=05:33 29-03-2026
+[2026-03-29 05:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 06:01:07] [INFO] Load Dữ liệu xong
+[2026-03-29 06:01:07] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 06:03:39] [INFO] Đẩy thành công
+[2026-03-29 06:03:39] [INFO] Tắt PBI
+[2026-03-29 06:03:39] [INFO] connect success
+[2026-03-29 06:03:39] [INFO] SQL executed successfully
+[2026-03-29 06:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 06:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 06:28:45] [INFO] connect success
+[2026-03-29 06:28:45] [INFO] Dữ liệu gần nhất: ID=1173, SYSTEM=SAP, TIME=06:03 29-03-2026
+[2026-03-29 06:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 06:31:15] [INFO] Load Dữ liệu xong
+[2026-03-29 06:31:18] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 06:34:07] [INFO] Đẩy thành công
+[2026-03-29 06:34:07] [INFO] Tắt PBI
+[2026-03-29 06:34:07] [INFO] connect success
+[2026-03-29 06:34:08] [INFO] SQL executed successfully
+[2026-03-29 06:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 06:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 06:58:45] [INFO] connect success
+[2026-03-29 06:58:45] [INFO] Dữ liệu gần nhất: ID=1175, SYSTEM=SAP, TIME=06:34 29-03-2026
+[2026-03-29 06:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 07:00:37] [INFO] Load Dữ liệu xong
+[2026-03-29 07:00:37] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 07:02:59] [INFO] Đẩy thành công
+[2026-03-29 07:02:59] [INFO] Tắt PBI
+[2026-03-29 07:02:59] [INFO] connect success
+[2026-03-29 07:02:59] [INFO] SQL executed successfully
+[2026-03-29 07:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 07:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 07:28:45] [INFO] connect success
+[2026-03-29 07:28:45] [INFO] Dữ liệu gần nhất: ID=1176, SYSTEM=SAP, TIME=07:02 29-03-2026
+[2026-03-29 07:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 07:31:07] [INFO] Load Dữ liệu xong
+[2026-03-29 07:31:07] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 07:33:43] [INFO] Đẩy thành công
+[2026-03-29 07:33:43] [INFO] Tắt PBI
+[2026-03-29 07:33:43] [INFO] connect success
+[2026-03-29 07:33:43] [INFO] SQL executed successfully
+[2026-03-29 07:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 07:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 07:58:45] [INFO] connect success
+[2026-03-29 07:58:45] [INFO] Dữ liệu gần nhất: ID=1179, SYSTEM=SAP, TIME=07:33 29-03-2026
+[2026-03-29 07:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 08:00:45] [INFO] Load Dữ liệu xong
+[2026-03-29 08:00:45] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 08:03:31] [INFO] Đẩy thành công
+[2026-03-29 08:03:31] [INFO] Tắt PBI
+[2026-03-29 08:03:31] [INFO] connect success
+[2026-03-29 08:03:31] [INFO] SQL executed successfully
+[2026-03-29 08:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 08:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 08:28:45] [INFO] connect success
+[2026-03-29 08:28:45] [INFO] Dữ liệu gần nhất: ID=1180, SYSTEM=SAP, TIME=08:03 29-03-2026
+[2026-03-29 08:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 08:31:12] [INFO] Load Dữ liệu xong
+[2026-03-29 08:31:12] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 08:33:42] [INFO] Đẩy thành công
+[2026-03-29 08:33:42] [INFO] Tắt PBI
+[2026-03-29 08:33:42] [INFO] connect success
+[2026-03-29 08:33:42] [INFO] SQL executed successfully
+[2026-03-29 08:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 08:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 08:58:45] [INFO] connect success
+[2026-03-29 08:58:45] [INFO] Dữ liệu gần nhất: ID=1183, SYSTEM=SAP, TIME=08:33 29-03-2026
+[2026-03-29 08:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 09:01:02] [INFO] Load Dữ liệu xong
+[2026-03-29 09:01:02] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 09:03:31] [INFO] Đẩy thành công
+[2026-03-29 09:03:31] [INFO] Tắt PBI
+[2026-03-29 09:03:31] [INFO] connect success
+[2026-03-29 09:03:31] [INFO] SQL executed successfully
+[2026-03-29 09:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 09:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 09:28:45] [INFO] connect success
+[2026-03-29 09:28:45] [INFO] Dữ liệu gần nhất: ID=1185, SYSTEM=SAP, TIME=09:03 29-03-2026
+[2026-03-29 09:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 09:31:14] [INFO] Load Dữ liệu xong
+[2026-03-29 09:31:15] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 09:34:03] [INFO] Đẩy thành công
+[2026-03-29 09:34:03] [INFO] Tắt PBI
+[2026-03-29 09:34:03] [INFO] connect success
+[2026-03-29 09:34:03] [INFO] SQL executed successfully
+[2026-03-29 09:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 09:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 09:58:45] [INFO] connect success
+[2026-03-29 09:58:45] [INFO] Dữ liệu gần nhất: ID=1187, SYSTEM=SAP, TIME=09:34 29-03-2026
+[2026-03-29 09:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 10:00:58] [INFO] Load Dữ liệu xong
+[2026-03-29 10:00:59] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 10:03:31] [INFO] Đẩy thành công
+[2026-03-29 10:03:31] [INFO] Tắt PBI
+[2026-03-29 10:03:31] [INFO] connect success
+[2026-03-29 10:03:31] [INFO] SQL executed successfully
+[2026-03-29 10:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 10:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 10:28:45] [INFO] connect success
+[2026-03-29 10:28:45] [INFO] Dữ liệu gần nhất: ID=1189, SYSTEM=SAP, TIME=10:03 29-03-2026
+[2026-03-29 10:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 10:30:58] [INFO] Load Dữ liệu xong
+[2026-03-29 10:30:59] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 10:33:55] [INFO] Đẩy thành công
+[2026-03-29 10:33:55] [INFO] Tắt PBI
+[2026-03-29 10:33:55] [INFO] connect success
+[2026-03-29 10:33:55] [INFO] SQL executed successfully
+[2026-03-29 10:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 10:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 10:58:45] [INFO] connect success
+[2026-03-29 10:58:45] [INFO] Dữ liệu gần nhất: ID=1190, SYSTEM=SAP, TIME=10:33 29-03-2026
+[2026-03-29 10:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 11:00:52] [INFO] Load Dữ liệu xong
+[2026-03-29 11:00:53] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 11:03:29] [INFO] Đẩy thành công
+[2026-03-29 11:03:29] [INFO] Tắt PBI
+[2026-03-29 11:03:29] [INFO] connect success
+[2026-03-29 11:03:29] [INFO] SQL executed successfully
+[2026-03-29 11:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 11:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 11:28:45] [INFO] connect success
+[2026-03-29 11:28:45] [INFO] Dữ liệu gần nhất: ID=1193, SYSTEM=SAP, TIME=11:03 29-03-2026
+[2026-03-29 11:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 11:31:20] [INFO] Load Dữ liệu xong
+[2026-03-29 11:31:20] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 11:33:53] [INFO] Đẩy thành công
+[2026-03-29 11:33:53] [INFO] Tắt PBI
+[2026-03-29 11:33:53] [INFO] connect success
+[2026-03-29 11:33:53] [INFO] SQL executed successfully
+[2026-03-29 11:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 11:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 11:58:45] [INFO] connect success
+[2026-03-29 11:58:45] [INFO] Dữ liệu gần nhất: ID=1195, SYSTEM=SAP, TIME=11:33 29-03-2026
+[2026-03-29 11:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 12:01:05] [INFO] Load Dữ liệu xong
+[2026-03-29 12:01:05] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 12:03:23] [INFO] Đẩy thành công
+[2026-03-29 12:03:23] [INFO] Tắt PBI
+[2026-03-29 12:03:23] [INFO] connect success
+[2026-03-29 12:03:24] [INFO] SQL executed successfully
+[2026-03-29 12:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 12:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 12:28:45] [INFO] connect success
+[2026-03-29 12:28:45] [INFO] Dữ liệu gần nhất: ID=1197, SYSTEM=SAP, TIME=12:03 29-03-2026
+[2026-03-29 12:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 12:31:15] [INFO] Load Dữ liệu xong
+[2026-03-29 12:31:15] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 12:33:48] [INFO] Đẩy thành công
+[2026-03-29 12:33:48] [INFO] Tắt PBI
+[2026-03-29 12:33:48] [INFO] connect success
+[2026-03-29 12:33:49] [INFO] SQL executed successfully
+[2026-03-29 12:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 12:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 12:58:45] [INFO] connect success
+[2026-03-29 12:58:45] [INFO] Dữ liệu gần nhất: ID=1199, SYSTEM=SAP, TIME=12:33 29-03-2026
+[2026-03-29 12:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 13:01:18] [INFO] Load Dữ liệu xong
+[2026-03-29 13:01:18] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 13:04:06] [INFO] Đẩy thành công
+[2026-03-29 13:04:06] [INFO] Tắt PBI
+[2026-03-29 13:04:06] [INFO] connect success
+[2026-03-29 13:04:06] [INFO] SQL executed successfully
+[2026-03-29 13:28:44] [INFO] Update dữ liệu PBI
+[2026-03-29 13:28:44] [INFO] Check trạng thái SAP
+[2026-03-29 13:28:44] [INFO] connect success
+[2026-03-29 13:28:44] [INFO] Dữ liệu gần nhất: ID=1201, SYSTEM=SAP, TIME=13:04 29-03-2026
+[2026-03-29 13:28:44] [INFO] Load dữ liệu PBI
+[2026-03-29 13:30:06] [INFO] Load Dữ liệu xong
+[2026-03-29 13:30:07] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 13:32:27] [INFO] Đẩy thành công
+[2026-03-29 13:32:27] [INFO] Tắt PBI
+[2026-03-29 13:32:27] [INFO] connect success
+[2026-03-29 13:32:27] [INFO] SQL executed successfully
+[2026-03-29 13:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 13:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 13:58:45] [INFO] connect success
+[2026-03-29 13:58:45] [INFO] Dữ liệu gần nhất: ID=1202, SYSTEM=SAP, TIME=13:32 29-03-2026
+[2026-03-29 13:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 14:01:01] [INFO] Load Dữ liệu xong
+[2026-03-29 14:01:02] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 14:03:20] [INFO] Đẩy thành công
+[2026-03-29 14:03:20] [INFO] Tắt PBI
+[2026-03-29 14:03:20] [INFO] connect success
+[2026-03-29 14:03:20] [INFO] SQL executed successfully
+[2026-03-29 14:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 14:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 14:28:45] [INFO] connect success
+[2026-03-29 14:28:45] [INFO] Dữ liệu gần nhất: ID=1205, SYSTEM=SAP, TIME=14:03 29-03-2026
+[2026-03-29 14:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 14:31:09] [INFO] Load Dữ liệu xong
+[2026-03-29 14:31:09] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 14:33:39] [INFO] Đẩy thành công
+[2026-03-29 14:33:39] [INFO] Tắt PBI
+[2026-03-29 14:33:39] [INFO] connect success
+[2026-03-29 14:33:39] [INFO] SQL executed successfully
+[2026-03-29 14:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 14:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 14:58:45] [INFO] connect success
+[2026-03-29 14:58:45] [INFO] Dữ liệu gần nhất: ID=1207, SYSTEM=SAP, TIME=14:33 29-03-2026
+[2026-03-29 14:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 15:00:49] [INFO] Load Dữ liệu xong
+[2026-03-29 15:00:49] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 15:03:41] [INFO] Đẩy thành công
+[2026-03-29 15:03:41] [INFO] Tắt PBI
+[2026-03-29 15:03:41] [INFO] connect success
+[2026-03-29 15:03:41] [INFO] SQL executed successfully
+[2026-03-29 15:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 15:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 15:28:45] [INFO] connect success
+[2026-03-29 15:28:45] [INFO] Dữ liệu gần nhất: ID=1208, SYSTEM=SAP, TIME=15:03 29-03-2026
+[2026-03-29 15:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 15:30:47] [INFO] Load Dữ liệu xong
+[2026-03-29 15:30:48] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 15:33:19] [INFO] Đẩy thành công
+[2026-03-29 15:33:19] [INFO] Tắt PBI
+[2026-03-29 15:33:19] [INFO] connect success
+[2026-03-29 15:33:19] [INFO] SQL executed successfully
+[2026-03-29 15:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 15:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 15:58:45] [INFO] connect success
+[2026-03-29 15:58:45] [INFO] Dữ liệu gần nhất: ID=1211, SYSTEM=SAP, TIME=15:33 29-03-2026
+[2026-03-29 15:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 15:59:27] [INFO] Load Dữ liệu xong
+[2026-03-29 15:59:27] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 16:04:22] [INFO] Đẩy thành công
+[2026-03-29 16:04:22] [INFO] Tắt PBI
+[2026-03-29 16:04:22] [INFO] connect success
+[2026-03-29 16:04:22] [INFO] SQL executed successfully
+[2026-03-29 16:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 16:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 16:28:45] [INFO] connect success
+[2026-03-29 16:28:45] [INFO] Dữ liệu gần nhất: ID=1212, SYSTEM=SAP, TIME=16:04 29-03-2026
+[2026-03-29 16:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 16:31:10] [INFO] Load Dữ liệu xong
+[2026-03-29 16:31:11] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 16:34:00] [INFO] Đẩy thành công
+[2026-03-29 16:34:00] [INFO] Tắt PBI
+[2026-03-29 16:34:00] [INFO] connect success
+[2026-03-29 16:34:01] [INFO] SQL executed successfully
+[2026-03-29 16:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 16:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 16:58:45] [INFO] connect success
+[2026-03-29 16:58:45] [INFO] Dữ liệu gần nhất: ID=1214, SYSTEM=SAP, TIME=16:34 29-03-2026
+[2026-03-29 16:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 17:00:40] [INFO] Load Dữ liệu xong
+[2026-03-29 17:00:40] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 17:03:04] [INFO] Đẩy thành công
+[2026-03-29 17:03:04] [INFO] Tắt PBI
+[2026-03-29 17:03:04] [INFO] connect success
+[2026-03-29 17:03:04] [INFO] SQL executed successfully
+[2026-03-29 17:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 17:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 17:28:45] [INFO] connect success
+[2026-03-29 17:28:45] [INFO] Dữ liệu gần nhất: ID=1216, SYSTEM=SAP, TIME=17:03 29-03-2026
+[2026-03-29 17:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 17:30:47] [INFO] Load Dữ liệu xong
+[2026-03-29 17:30:47] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 17:33:03] [INFO] Đẩy thành công
+[2026-03-29 17:33:03] [INFO] Tắt PBI
+[2026-03-29 17:33:03] [INFO] connect success
+[2026-03-29 17:33:04] [INFO] SQL executed successfully
+[2026-03-29 17:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 17:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 17:58:45] [INFO] connect success
+[2026-03-29 17:58:45] [INFO] Dữ liệu gần nhất: ID=1218, SYSTEM=SAP, TIME=17:33 29-03-2026
+[2026-03-29 17:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 18:00:59] [INFO] Load Dữ liệu xong
+[2026-03-29 18:01:00] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 18:03:46] [INFO] Đẩy thành công
+[2026-03-29 18:03:46] [INFO] Tắt PBI
+[2026-03-29 18:03:46] [INFO] connect success
+[2026-03-29 18:03:46] [INFO] SQL executed successfully
+[2026-03-29 18:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 18:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 18:28:45] [INFO] connect success
+[2026-03-29 18:28:45] [INFO] Dữ liệu gần nhất: ID=1220, SYSTEM=SAP, TIME=18:03 29-03-2026
+[2026-03-29 18:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 18:30:43] [INFO] Load Dữ liệu xong
+[2026-03-29 18:30:43] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 18:33:06] [INFO] Đẩy thành công
+[2026-03-29 18:33:06] [INFO] Tắt PBI
+[2026-03-29 18:33:06] [INFO] connect success
+[2026-03-29 18:33:06] [INFO] SQL executed successfully
+[2026-03-29 18:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 18:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 18:58:45] [INFO] connect success
+[2026-03-29 18:58:45] [INFO] Dữ liệu gần nhất: ID=1222, SYSTEM=SAP, TIME=18:33 29-03-2026
+[2026-03-29 18:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 19:00:06] [INFO] Load Dữ liệu xong
+[2026-03-29 19:00:06] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 19:02:27] [INFO] Đẩy thành công
+[2026-03-29 19:02:27] [INFO] Tắt PBI
+[2026-03-29 19:02:27] [INFO] connect success
+[2026-03-29 19:02:27] [INFO] SQL executed successfully
+[2026-03-29 19:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 19:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 19:28:45] [INFO] connect success
+[2026-03-29 19:28:45] [INFO] Dữ liệu gần nhất: ID=1224, SYSTEM=SAP, TIME=19:02 29-03-2026
+[2026-03-29 19:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 19:29:31] [INFO] Load Dữ liệu xong
+[2026-03-29 19:29:31] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 19:34:19] [INFO] Đẩy thành công
+[2026-03-29 19:34:19] [INFO] Tắt PBI
+[2026-03-29 19:34:19] [INFO] connect success
+[2026-03-29 19:34:19] [INFO] SQL executed successfully
+[2026-03-29 19:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 19:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 19:58:45] [INFO] connect success
+[2026-03-29 19:58:45] [INFO] Dữ liệu gần nhất: ID=1226, SYSTEM=SAP, TIME=19:34 29-03-2026
+[2026-03-29 19:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 20:01:05] [INFO] Load Dữ liệu xong
+[2026-03-29 20:01:05] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 20:03:50] [INFO] Đẩy thành công
+[2026-03-29 20:03:50] [INFO] Tắt PBI
+[2026-03-29 20:03:50] [INFO] connect success
+[2026-03-29 20:03:50] [INFO] SQL executed successfully
+[2026-03-29 20:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 20:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 20:28:45] [INFO] connect success
+[2026-03-29 20:28:45] [INFO] Dữ liệu gần nhất: ID=1229, SYSTEM=SAP, TIME=20:03 29-03-2026
+[2026-03-29 20:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 20:31:40] [INFO] Load Dữ liệu xong
+[2026-03-29 20:31:40] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 20:34:16] [INFO] Đẩy thành công
+[2026-03-29 20:34:16] [INFO] Tắt PBI
+[2026-03-29 20:34:16] [INFO] connect success
+[2026-03-29 20:34:16] [INFO] SQL executed successfully
+[2026-03-29 20:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 20:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 20:58:45] [INFO] connect success
+[2026-03-29 20:58:45] [INFO] Dữ liệu gần nhất: ID=1230, SYSTEM=SAP, TIME=20:34 29-03-2026
+[2026-03-29 20:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 20:59:28] [INFO] Load Dữ liệu xong
+[2026-03-29 20:59:28] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 21:03:35] [INFO] Đẩy thành công
+[2026-03-29 21:03:35] [INFO] Tắt PBI
+[2026-03-29 21:03:35] [INFO] connect success
+[2026-03-29 21:03:35] [INFO] SQL executed successfully
+[2026-03-29 21:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 21:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 21:28:45] [INFO] connect success
+[2026-03-29 21:28:45] [INFO] Dữ liệu gần nhất: ID=1232, SYSTEM=SAP, TIME=21:03 29-03-2026
+[2026-03-29 21:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 21:30:29] [INFO] Load Dữ liệu xong
+[2026-03-29 21:30:29] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 21:33:06] [INFO] Đẩy thành công
+[2026-03-29 21:33:06] [INFO] Tắt PBI
+[2026-03-29 21:33:06] [INFO] connect success
+[2026-03-29 21:33:06] [INFO] SQL executed successfully
+[2026-03-29 21:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 21:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 21:58:45] [INFO] connect success
+[2026-03-29 21:58:45] [INFO] Dữ liệu gần nhất: ID=1233, SYSTEM=SAP, TIME=21:33 29-03-2026
+[2026-03-29 21:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 22:00:43] [INFO] Load Dữ liệu xong
+[2026-03-29 22:00:43] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 22:03:36] [INFO] Đẩy thành công
+[2026-03-29 22:03:36] [INFO] Tắt PBI
+[2026-03-29 22:03:36] [INFO] connect success
+[2026-03-29 22:03:36] [INFO] SQL executed successfully
+[2026-03-29 22:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 22:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 22:28:45] [INFO] connect success
+[2026-03-29 22:28:45] [INFO] Dữ liệu gần nhất: ID=1235, SYSTEM=SAP, TIME=22:03 29-03-2026
+[2026-03-29 22:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 22:30:59] [INFO] Load Dữ liệu xong
+[2026-03-29 22:30:59] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 22:33:57] [INFO] Đẩy thành công
+[2026-03-29 22:33:57] [INFO] Tắt PBI
+[2026-03-29 22:33:57] [INFO] connect success
+[2026-03-29 22:33:57] [INFO] SQL executed successfully
+[2026-03-29 22:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 22:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 22:58:45] [INFO] connect success
+[2026-03-29 22:58:45] [INFO] Dữ liệu gần nhất: ID=1238, SYSTEM=SAP, TIME=22:33 29-03-2026
+[2026-03-29 22:58:45] [INFO] Load dữ liệu PBI
+[2026-03-29 23:01:02] [INFO] Load Dữ liệu xong
+[2026-03-29 23:01:02] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 23:03:30] [INFO] Đẩy thành công
+[2026-03-29 23:03:30] [INFO] Tắt PBI
+[2026-03-29 23:03:30] [INFO] connect success
+[2026-03-29 23:03:30] [INFO] SQL executed successfully
+[2026-03-29 23:28:45] [INFO] Update dữ liệu PBI
+[2026-03-29 23:28:45] [INFO] Check trạng thái SAP
+[2026-03-29 23:28:45] [INFO] connect success
+[2026-03-29 23:28:45] [INFO] Dữ liệu gần nhất: ID=1240, SYSTEM=SAP, TIME=23:03 29-03-2026
+[2026-03-29 23:28:45] [INFO] Load dữ liệu PBI
+[2026-03-29 23:30:42] [INFO] Load Dữ liệu xong
+[2026-03-29 23:30:42] [INFO] Đẩy dữ liệu vào PBI
+[2026-03-29 23:33:03] [INFO] Đẩy thành công
+[2026-03-29 23:33:03] [INFO] Tắt PBI
+[2026-03-29 23:33:03] [INFO] connect success
+[2026-03-29 23:33:03] [INFO] SQL executed successfully
+[2026-03-29 23:58:45] [INFO] Update dữ liệu PBI
+[2026-03-29 23:58:45] [INFO] Check trạng thái SAP
+[2026-03-29 23:58:45] [INFO] connect success
+[2026-03-29 23:58:45] [INFO] Dữ liệu gần nhất: ID=1241, SYSTEM=SAP, TIME=23:33 29-03-2026
+[2026-03-29 23:58:45] [INFO] Load dữ liệu PBI

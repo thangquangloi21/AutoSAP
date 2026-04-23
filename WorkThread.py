@@ -14,6 +14,9 @@ import subprocess
 import time
 import pygetwindow as gw
 import os
+import win32process
+# import pygetwindow as gw
+import psutil
 
 # Force pythonnet to use .NET Core
 os.environ['PYTHONNET_RUNTIME'] = 'coreclr'
@@ -52,9 +55,11 @@ class WorkThread(threading.Thread):
     schema = "dbo"
     username = "sa"
     password = "123456"
+    pyautogui.PAUSE = 0.2
     def __init__(self):
         threading.Thread.__init__(self)
         self.log = Logger()
+        
         
         # self.log.info("Application initialized")
     
@@ -327,14 +332,32 @@ class WorkThread(threading.Thread):
             else:
                 self.openapps_btn(FilePath)
                 
-                
+    
+    def force_kill_window(self, window_title: str):
+        try:
+            window = gw.getWindowsWithTitle(window_title)[0]
+            hwnd = window._hWnd
+
+            # lấy PID
+            tid, pid = win32process.GetWindowThreadProcessId(hwnd)
+            p = psutil.Process(pid)
+            p.terminate()  # hoặc p.kill() nếu cần mạnh hơn
+
+            print(f"Đã ép tắt ứng dụng '{window_title}' (PID: {pid}).")
+        except IndexError:
+            print(f"Không tìm thấy cửa sổ: '{window_title}'")
+        except Exception as e:
+            print("Lỗi:", e)
+    
+       
     def Load_Data(self):
         try:
             self.log.info("Load dữ liệu PBI")
             Refresh = r'IMG/Refresh.png'
             Loading = r'IMG/Loading.png'
             title = "DW_SAP_PBI"
-            filepath = r"C:\Users\249533\Downloads\DW_SAP_PBI.pbix"
+            filepath = r"DW_SAP_PBI.pbix"
+            self.force_kill_window(title)
             self.check_openapp(title, filepath)
             
             while True:
@@ -361,6 +384,8 @@ class WorkThread(threading.Thread):
             self.log.info("Đẩy dữ liệu vào PBI")
             self.PBIToSql()
             self.log.info("Đẩy thành công")
+            self.force_kill_window(title)
+            self.log.info("Tắt PBI")
             return True
         
         except Exception as e:

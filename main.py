@@ -10,7 +10,7 @@ LAST_REQUEST_TIME2 = None
 LAST_REQUEST_TIME3 = None
 LIMIT = timedelta(minutes=30)
 LIMIT2 = timedelta(minutes=30)
-LIMIT3 = timedelta(seconds=30)
+LIMIT3 = timedelta(seconds=29)
 RUNING = False
 
 log = Logger()

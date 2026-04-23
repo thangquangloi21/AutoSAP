@@ -1,0 +1,477 @@
+[2026-04-20 00:00:53] [INFO] Load Dữ liệu xong
+[2026-04-20 00:00:53] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 00:04:11] [INFO] Đẩy thành công
+[2026-04-20 00:04:11] [INFO] Tắt PBI
+[2026-04-20 00:04:11] [INFO] connect success
+[2026-04-20 00:04:12] [INFO] SQL executed successfully
+[2026-04-20 00:28:46] [INFO] Update dữ liệu PBI
+[2026-04-20 00:28:46] [INFO] Check trạng thái SAP
+[2026-04-20 00:28:46] [INFO] connect success
+[2026-04-20 00:28:46] [INFO] Dữ liệu gần nhất: ID=2645, SYSTEM=SAP, TIME=00:04 20-04-2026
+[2026-04-20 00:28:46] [INFO] Load dữ liệu PBI
+[2026-04-20 00:31:14] [INFO] Load Dữ liệu xong
+[2026-04-20 00:31:15] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 00:34:36] [INFO] Đẩy thành công
+[2026-04-20 00:34:36] [INFO] Tắt PBI
+[2026-04-20 00:34:36] [INFO] connect success
+[2026-04-20 00:34:36] [INFO] SQL executed successfully
+[2026-04-20 00:58:46] [INFO] Update dữ liệu PBI
+[2026-04-20 00:58:46] [INFO] Check trạng thái SAP
+[2026-04-20 00:58:46] [INFO] connect success
+[2026-04-20 00:58:46] [INFO] Dữ liệu gần nhất: ID=2646, SYSTEM=SAP, TIME=00:34 20-04-2026
+[2026-04-20 00:58:46] [INFO] Load dữ liệu PBI
+[2026-04-20 00:59:26] [INFO] Load Dữ liệu xong
+[2026-04-20 00:59:26] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 01:02:08] [INFO] Đẩy thành công
+[2026-04-20 01:02:08] [INFO] Tắt PBI
+[2026-04-20 01:02:08] [INFO] connect success
+[2026-04-20 01:02:08] [INFO] SQL executed successfully
+[2026-04-20 01:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 01:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 01:28:45] [INFO] connect success
+[2026-04-20 01:28:45] [INFO] Dữ liệu gần nhất: ID=2647, SYSTEM=SAP, TIME=01:02 20-04-2026
+[2026-04-20 01:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 01:30:53] [INFO] Load Dữ liệu xong
+[2026-04-20 01:30:53] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 01:34:09] [INFO] Đẩy thành công
+[2026-04-20 01:34:09] [INFO] Tắt PBI
+[2026-04-20 01:34:09] [INFO] connect success
+[2026-04-20 01:34:09] [INFO] SQL executed successfully
+[2026-04-20 01:58:46] [INFO] Update dữ liệu PBI
+[2026-04-20 01:58:46] [INFO] Check trạng thái SAP
+[2026-04-20 01:58:46] [INFO] connect success
+[2026-04-20 01:58:46] [INFO] Dữ liệu gần nhất: ID=2648, SYSTEM=SAP, TIME=01:34 20-04-2026
+[2026-04-20 01:58:46] [INFO] Load dữ liệu PBI
+[2026-04-20 02:01:13] [INFO] Load Dữ liệu xong
+[2026-04-20 02:01:13] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 02:04:33] [INFO] Đẩy thành công
+[2026-04-20 02:04:33] [INFO] Tắt PBI
+[2026-04-20 02:04:33] [INFO] connect success
+[2026-04-20 02:04:34] [INFO] SQL executed successfully
+[2026-04-20 02:28:46] [INFO] Update dữ liệu PBI
+[2026-04-20 02:28:46] [INFO] Check trạng thái SAP
+[2026-04-20 02:28:46] [INFO] connect success
+[2026-04-20 02:28:46] [INFO] Dữ liệu gần nhất: ID=2649, SYSTEM=SAP, TIME=02:04 20-04-2026
+[2026-04-20 02:28:46] [INFO] Load dữ liệu PBI
+[2026-04-20 02:31:14] [INFO] Load Dữ liệu xong
+[2026-04-20 02:31:16] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 02:34:54] [INFO] Đẩy thành công
+[2026-04-20 02:34:54] [INFO] Tắt PBI
+[2026-04-20 02:34:54] [INFO] connect success
+[2026-04-20 02:34:54] [INFO] SQL executed successfully
+[2026-04-20 02:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 02:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 02:58:45] [INFO] connect success
+[2026-04-20 02:58:45] [INFO] Dữ liệu gần nhất: ID=2650, SYSTEM=SAP, TIME=02:34 20-04-2026
+[2026-04-20 02:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 03:00:46] [INFO] Load Dữ liệu xong
+[2026-04-20 03:00:47] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 03:03:46] [INFO] Đẩy thành công
+[2026-04-20 03:03:46] [INFO] Tắt PBI
+[2026-04-20 03:03:46] [INFO] connect success
+[2026-04-20 03:03:46] [INFO] SQL executed successfully
+[2026-04-20 03:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 03:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 03:28:45] [INFO] connect success
+[2026-04-20 03:28:45] [INFO] Dữ liệu gần nhất: ID=2651, SYSTEM=SAP, TIME=03:03 20-04-2026
+[2026-04-20 03:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 03:30:54] [INFO] Load Dữ liệu xong
+[2026-04-20 03:30:54] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 03:33:56] [INFO] Đẩy thành công
+[2026-04-20 03:33:56] [INFO] Tắt PBI
+[2026-04-20 03:33:56] [INFO] connect success
+[2026-04-20 03:33:56] [INFO] SQL executed successfully
+[2026-04-20 03:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 03:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 03:58:45] [INFO] connect success
+[2026-04-20 03:58:45] [INFO] Dữ liệu gần nhất: ID=2652, SYSTEM=SAP, TIME=03:33 20-04-2026
+[2026-04-20 03:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 04:00:37] [INFO] Load Dữ liệu xong
+[2026-04-20 04:00:38] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 04:03:44] [INFO] Đẩy thành công
+[2026-04-20 04:03:44] [INFO] Tắt PBI
+[2026-04-20 04:03:44] [INFO] connect success
+[2026-04-20 04:03:44] [INFO] SQL executed successfully
+[2026-04-20 04:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 04:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 04:28:45] [INFO] connect success
+[2026-04-20 04:28:46] [INFO] Dữ liệu gần nhất: ID=2653, SYSTEM=SAP, TIME=04:03 20-04-2026
+[2026-04-20 04:28:46] [INFO] Load dữ liệu PBI
+[2026-04-20 04:30:57] [INFO] Load Dữ liệu xong
+[2026-04-20 04:30:57] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 04:34:21] [INFO] Đẩy thành công
+[2026-04-20 04:34:21] [INFO] Tắt PBI
+[2026-04-20 04:34:21] [INFO] connect success
+[2026-04-20 04:34:21] [INFO] SQL executed successfully
+[2026-04-20 04:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 04:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 04:58:45] [INFO] connect success
+[2026-04-20 04:58:45] [INFO] Dữ liệu gần nhất: ID=2654, SYSTEM=SAP, TIME=04:34 20-04-2026
+[2026-04-20 04:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 05:00:52] [INFO] Load Dữ liệu xong
+[2026-04-20 05:00:53] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 05:04:02] [INFO] Đẩy thành công
+[2026-04-20 05:04:02] [INFO] Tắt PBI
+[2026-04-20 05:04:02] [INFO] connect success
+[2026-04-20 05:04:02] [INFO] SQL executed successfully
+[2026-04-20 05:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 05:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 05:28:45] [INFO] connect success
+[2026-04-20 05:28:45] [INFO] Dữ liệu gần nhất: ID=2655, SYSTEM=SAP, TIME=05:04 20-04-2026
+[2026-04-20 05:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 05:30:45] [INFO] Load Dữ liệu xong
+[2026-04-20 05:30:45] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 05:33:51] [INFO] Đẩy thành công
+[2026-04-20 05:33:51] [INFO] Tắt PBI
+[2026-04-20 05:33:51] [INFO] connect success
+[2026-04-20 05:33:51] [INFO] SQL executed successfully
+[2026-04-20 05:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 05:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 05:58:45] [INFO] connect success
+[2026-04-20 05:58:45] [INFO] Dữ liệu gần nhất: ID=2656, SYSTEM=SAP, TIME=05:33 20-04-2026
+[2026-04-20 05:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 06:01:06] [INFO] Load Dữ liệu xong
+[2026-04-20 06:01:06] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 06:04:20] [INFO] Đẩy thành công
+[2026-04-20 06:04:20] [INFO] Tắt PBI
+[2026-04-20 06:04:20] [INFO] connect success
+[2026-04-20 06:04:20] [INFO] SQL executed successfully
+[2026-04-20 06:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 06:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 06:28:45] [INFO] connect success
+[2026-04-20 06:28:45] [INFO] Dữ liệu gần nhất: ID=2657, SYSTEM=SAP, TIME=06:04 20-04-2026
+[2026-04-20 06:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 06:31:22] [INFO] Load Dữ liệu xong
+[2026-04-20 06:31:22] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 06:34:38] [INFO] Đẩy thành công
+[2026-04-20 06:34:38] [INFO] Tắt PBI
+[2026-04-20 06:34:38] [INFO] connect success
+[2026-04-20 06:34:38] [INFO] SQL executed successfully
+[2026-04-20 06:58:46] [INFO] Update dữ liệu PBI
+[2026-04-20 06:58:46] [INFO] Check trạng thái SAP
+[2026-04-20 06:58:46] [INFO] connect success
+[2026-04-20 06:58:46] [INFO] Dữ liệu gần nhất: ID=2658, SYSTEM=SAP, TIME=06:34 20-04-2026
+[2026-04-20 06:58:46] [INFO] Load dữ liệu PBI
+[2026-04-20 07:01:47] [INFO] Load Dữ liệu xong
+[2026-04-20 07:01:47] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 07:04:49] [INFO] Đẩy thành công
+[2026-04-20 07:04:49] [INFO] Tắt PBI
+[2026-04-20 07:04:49] [INFO] connect success
+[2026-04-20 07:04:49] [INFO] SQL executed successfully
+[2026-04-20 07:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 07:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 07:28:45] [INFO] connect success
+[2026-04-20 07:28:45] [INFO] Dữ liệu gần nhất: ID=2659, SYSTEM=SAP, TIME=07:04 20-04-2026
+[2026-04-20 07:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 07:30:51] [INFO] Load Dữ liệu xong
+[2026-04-20 07:30:52] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 07:34:06] [INFO] Đẩy thành công
+[2026-04-20 07:34:06] [INFO] Tắt PBI
+[2026-04-20 07:34:06] [INFO] connect success
+[2026-04-20 07:34:07] [INFO] SQL executed successfully
+[2026-04-20 07:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 07:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 07:58:45] [INFO] connect success
+[2026-04-20 07:58:45] [INFO] Dữ liệu gần nhất: ID=2660, SYSTEM=SAP, TIME=07:34 20-04-2026
+[2026-04-20 07:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 08:01:09] [INFO] Load Dữ liệu xong
+[2026-04-20 08:01:09] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 08:04:23] [INFO] Đẩy thành công
+[2026-04-20 08:04:23] [INFO] Tắt PBI
+[2026-04-20 08:04:23] [INFO] connect success
+[2026-04-20 08:04:23] [INFO] SQL executed successfully
+[2026-04-20 08:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 08:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 08:28:45] [INFO] connect success
+[2026-04-20 08:28:45] [INFO] Dữ liệu gần nhất: ID=2661, SYSTEM=SAP, TIME=08:04 20-04-2026
+[2026-04-20 08:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 08:32:34] [INFO] Load Dữ liệu xong
+[2026-04-20 08:32:46] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 08:36:37] [INFO] Đẩy thành công
+[2026-04-20 08:36:37] [INFO] Tắt PBI
+[2026-04-20 08:36:37] [INFO] connect success
+[2026-04-20 08:36:38] [INFO] SQL executed successfully
+[2026-04-20 08:58:46] [INFO] Update dữ liệu PBI
+[2026-04-20 08:58:46] [INFO] Check trạng thái SAP
+[2026-04-20 08:58:46] [INFO] connect success
+[2026-04-20 08:58:46] [INFO] Dữ liệu gần nhất: ID=2662, SYSTEM=SAP, TIME=08:36 20-04-2026
+[2026-04-20 08:58:46] [INFO] Load dữ liệu PBI
+[2026-04-20 08:59:39] [INFO] Load Dữ liệu xong
+[2026-04-20 08:59:40] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 09:02:48] [INFO] Đẩy thành công
+[2026-04-20 09:02:48] [INFO] Tắt PBI
+[2026-04-20 09:02:48] [INFO] connect success
+[2026-04-20 09:02:48] [INFO] SQL executed successfully
+[2026-04-20 09:28:46] [INFO] Update dữ liệu PBI
+[2026-04-20 09:28:46] [INFO] Check trạng thái SAP
+[2026-04-20 09:28:46] [INFO] connect success
+[2026-04-20 09:28:46] [INFO] Dữ liệu gần nhất: ID=2663, SYSTEM=SAP, TIME=09:02 20-04-2026
+[2026-04-20 09:28:46] [INFO] Load dữ liệu PBI
+[2026-04-20 09:31:23] [INFO] Load Dữ liệu xong
+[2026-04-20 09:31:24] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 09:34:58] [INFO] Đẩy thành công
+[2026-04-20 09:34:58] [INFO] Tắt PBI
+[2026-04-20 09:34:58] [INFO] connect success
+[2026-04-20 09:34:58] [INFO] SQL executed successfully
+[2026-04-20 09:58:46] [INFO] Update dữ liệu PBI
+[2026-04-20 09:58:46] [INFO] Check trạng thái SAP
+[2026-04-20 09:58:46] [INFO] connect success
+[2026-04-20 09:58:46] [INFO] Dữ liệu gần nhất: ID=2664, SYSTEM=SAP, TIME=09:34 20-04-2026
+[2026-04-20 09:58:46] [INFO] Load dữ liệu PBI
+[2026-04-20 10:01:14] [INFO] Load Dữ liệu xong
+[2026-04-20 10:01:15] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 10:04:27] [INFO] Đẩy thành công
+[2026-04-20 10:04:27] [INFO] Tắt PBI
+[2026-04-20 10:04:27] [INFO] connect success
+[2026-04-20 10:04:27] [INFO] SQL executed successfully
+[2026-04-20 10:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 10:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 10:28:45] [INFO] connect success
+[2026-04-20 10:28:46] [INFO] Dữ liệu gần nhất: ID=2665, SYSTEM=SAP, TIME=10:04 20-04-2026
+[2026-04-20 10:28:46] [INFO] Load dữ liệu PBI
+[2026-04-20 10:29:37] [INFO] Load Dữ liệu xong
+[2026-04-20 10:29:37] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 10:32:30] [INFO] Đẩy thành công
+[2026-04-20 10:32:30] [INFO] Tắt PBI
+[2026-04-20 10:32:30] [INFO] connect success
+[2026-04-20 10:32:30] [INFO] SQL executed successfully
+[2026-04-20 10:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 10:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 10:58:45] [INFO] connect success
+[2026-04-20 10:58:46] [INFO] Dữ liệu gần nhất: ID=2666, SYSTEM=SAP, TIME=10:32 20-04-2026
+[2026-04-20 10:58:46] [INFO] Load dữ liệu PBI
+[2026-04-20 11:01:05] [INFO] Load Dữ liệu xong
+[2026-04-20 11:01:07] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 11:04:27] [INFO] Đẩy thành công
+[2026-04-20 11:04:27] [INFO] Tắt PBI
+[2026-04-20 11:04:27] [INFO] connect success
+[2026-04-20 11:04:28] [INFO] SQL executed successfully
+[2026-04-20 11:28:46] [INFO] Update dữ liệu PBI
+[2026-04-20 11:28:46] [INFO] Check trạng thái SAP
+[2026-04-20 11:28:46] [INFO] connect success
+[2026-04-20 11:28:46] [INFO] Dữ liệu gần nhất: ID=2667, SYSTEM=SAP, TIME=11:04 20-04-2026
+[2026-04-20 11:28:46] [INFO] Load dữ liệu PBI
+[2026-04-20 11:31:40] [INFO] Load Dữ liệu xong
+[2026-04-20 11:31:41] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 11:35:38] [INFO] Đẩy thành công
+[2026-04-20 11:35:38] [INFO] Tắt PBI
+[2026-04-20 11:35:38] [INFO] connect success
+[2026-04-20 11:35:39] [INFO] SQL executed successfully
+[2026-04-20 11:58:46] [INFO] Update dữ liệu PBI
+[2026-04-20 11:58:46] [INFO] Check trạng thái SAP
+[2026-04-20 11:58:46] [INFO] connect success
+[2026-04-20 11:58:46] [INFO] Dữ liệu gần nhất: ID=2668, SYSTEM=SAP, TIME=11:35 20-04-2026
+[2026-04-20 11:58:46] [INFO] Load dữ liệu PBI
+[2026-04-20 12:01:16] [INFO] Load Dữ liệu xong
+[2026-04-20 12:01:17] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 12:04:41] [INFO] Đẩy thành công
+[2026-04-20 12:04:41] [INFO] Tắt PBI
+[2026-04-20 12:04:41] [INFO] connect success
+[2026-04-20 12:04:41] [INFO] SQL executed successfully
+[2026-04-20 12:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 12:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 12:28:45] [INFO] connect success
+[2026-04-20 12:28:45] [INFO] Dữ liệu gần nhất: ID=2669, SYSTEM=SAP, TIME=12:04 20-04-2026
+[2026-04-20 12:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 12:31:44] [INFO] Load Dữ liệu xong
+[2026-04-20 12:31:45] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 12:35:05] [INFO] Đẩy thành công
+[2026-04-20 12:35:06] [INFO] Tắt PBI
+[2026-04-20 12:35:06] [INFO] connect success
+[2026-04-20 12:35:06] [INFO] SQL executed successfully
+[2026-04-20 12:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 12:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 12:58:45] [INFO] connect success
+[2026-04-20 12:58:45] [INFO] Dữ liệu gần nhất: ID=2670, SYSTEM=SAP, TIME=12:35 20-04-2026
+[2026-04-20 12:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 13:01:17] [INFO] Load Dữ liệu xong
+[2026-04-20 13:01:18] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 13:04:51] [INFO] Đẩy thành công
+[2026-04-20 13:04:51] [INFO] Tắt PBI
+[2026-04-20 13:04:51] [INFO] connect success
+[2026-04-20 13:04:52] [INFO] SQL executed successfully
+[2026-04-20 13:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 13:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 13:28:45] [INFO] connect success
+[2026-04-20 13:28:45] [INFO] Dữ liệu gần nhất: ID=2671, SYSTEM=SAP, TIME=13:04 20-04-2026
+[2026-04-20 13:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 13:31:17] [INFO] Load Dữ liệu xong
+[2026-04-20 13:31:18] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 13:34:45] [INFO] Đẩy thành công
+[2026-04-20 13:34:45] [INFO] Tắt PBI
+[2026-04-20 13:34:45] [INFO] connect success
+[2026-04-20 13:34:45] [INFO] SQL executed successfully
+[2026-04-20 13:58:46] [INFO] Update dữ liệu PBI
+[2026-04-20 13:58:46] [INFO] Check trạng thái SAP
+[2026-04-20 13:58:46] [INFO] connect success
+[2026-04-20 13:58:46] [INFO] Dữ liệu gần nhất: ID=2672, SYSTEM=SAP, TIME=13:34 20-04-2026
+[2026-04-20 13:58:46] [INFO] Load dữ liệu PBI
+[2026-04-20 14:01:36] [INFO] Load Dữ liệu xong
+[2026-04-20 14:01:37] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 14:05:01] [INFO] Đẩy thành công
+[2026-04-20 14:05:01] [INFO] Tắt PBI
+[2026-04-20 14:05:01] [INFO] connect success
+[2026-04-20 14:05:02] [INFO] SQL executed successfully
+[2026-04-20 14:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 14:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 14:28:45] [INFO] connect success
+[2026-04-20 14:28:45] [INFO] Dữ liệu gần nhất: ID=2673, SYSTEM=SAP, TIME=14:05 20-04-2026
+[2026-04-20 14:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 14:31:35] [INFO] Load Dữ liệu xong
+[2026-04-20 14:31:36] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-20 14:35:06] [INFO] Đẩy thành công
+[2026-04-20 14:35:06] [INFO] Tắt PBI
+[2026-04-20 14:35:06] [INFO] connect success
+[2026-04-20 14:35:06] [INFO] SQL executed successfully
+[2026-04-20 14:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 14:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 14:58:45] [INFO] connect success
+[2026-04-20 14:58:45] [INFO] Dữ liệu gần nhất: ID=2674, SYSTEM=SAP, TIME=14:35 20-04-2026
+[2026-04-20 14:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 14:58:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 14:58:46] [INFO] connect success
+[2026-04-20 14:58:46] [INFO] SQL executed successfully
+[2026-04-20 15:28:46] [INFO] Update dữ liệu PBI
+[2026-04-20 15:28:46] [INFO] Check trạng thái SAP
+[2026-04-20 15:28:47] [INFO] connect success
+[2026-04-20 15:28:47] [INFO] Dữ liệu gần nhất: ID=2675, SYSTEM=SAP, TIME=error
+[2026-04-20 15:28:47] [INFO] Load dữ liệu PBI
+[2026-04-20 15:28:49] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 15:28:49] [INFO] connect success
+[2026-04-20 15:28:49] [INFO] SQL executed successfully
+[2026-04-20 15:58:46] [INFO] Update dữ liệu PBI
+[2026-04-20 15:58:46] [INFO] Check trạng thái SAP
+[2026-04-20 15:58:46] [INFO] connect success
+[2026-04-20 15:58:46] [INFO] Dữ liệu gần nhất: ID=2676, SYSTEM=SAP, TIME=error
+[2026-04-20 15:58:46] [INFO] Load dữ liệu PBI
+[2026-04-20 15:58:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 15:58:46] [INFO] connect success
+[2026-04-20 15:58:46] [INFO] SQL executed successfully
+[2026-04-20 16:28:46] [INFO] Update dữ liệu PBI
+[2026-04-20 16:28:46] [INFO] Check trạng thái SAP
+[2026-04-20 16:28:46] [INFO] connect success
+[2026-04-20 16:28:46] [INFO] Dữ liệu gần nhất: ID=2677, SYSTEM=SAP, TIME=error
+[2026-04-20 16:28:46] [INFO] Load dữ liệu PBI
+[2026-04-20 16:28:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 16:28:47] [INFO] connect success
+[2026-04-20 16:28:47] [INFO] SQL executed successfully
+[2026-04-20 16:58:46] [INFO] Update dữ liệu PBI
+[2026-04-20 16:58:46] [INFO] Check trạng thái SAP
+[2026-04-20 16:58:46] [INFO] connect success
+[2026-04-20 16:58:46] [INFO] Dữ liệu gần nhất: ID=2678, SYSTEM=SAP, TIME=error
+[2026-04-20 16:58:46] [INFO] Load dữ liệu PBI
+[2026-04-20 16:58:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 16:58:46] [INFO] connect success
+[2026-04-20 16:58:46] [INFO] SQL executed successfully
+[2026-04-20 17:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 17:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 17:28:45] [INFO] connect success
+[2026-04-20 17:28:45] [INFO] Dữ liệu gần nhất: ID=2679, SYSTEM=SAP, TIME=error
+[2026-04-20 17:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 17:28:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 17:28:46] [INFO] connect success
+[2026-04-20 17:28:46] [INFO] SQL executed successfully
+[2026-04-20 17:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 17:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 17:58:45] [INFO] connect success
+[2026-04-20 17:58:45] [INFO] Dữ liệu gần nhất: ID=2680, SYSTEM=SAP, TIME=error
+[2026-04-20 17:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 17:58:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 17:58:46] [INFO] connect success
+[2026-04-20 17:58:46] [INFO] SQL executed successfully
+[2026-04-20 18:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 18:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 18:28:45] [INFO] connect success
+[2026-04-20 18:28:45] [INFO] Dữ liệu gần nhất: ID=2681, SYSTEM=SAP, TIME=error
+[2026-04-20 18:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 18:28:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 18:28:46] [INFO] connect success
+[2026-04-20 18:28:46] [INFO] SQL executed successfully
+[2026-04-20 18:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 18:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 18:58:45] [INFO] connect success
+[2026-04-20 18:58:45] [INFO] Dữ liệu gần nhất: ID=2682, SYSTEM=SAP, TIME=error
+[2026-04-20 18:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 18:58:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 18:58:46] [INFO] connect success
+[2026-04-20 18:58:46] [INFO] SQL executed successfully
+[2026-04-20 19:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 19:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 19:28:45] [INFO] connect success
+[2026-04-20 19:28:45] [INFO] Dữ liệu gần nhất: ID=2683, SYSTEM=SAP, TIME=error
+[2026-04-20 19:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 19:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 19:28:45] [INFO] connect success
+[2026-04-20 19:28:46] [INFO] SQL executed successfully
+[2026-04-20 19:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 19:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 19:58:45] [INFO] connect success
+[2026-04-20 19:58:45] [INFO] Dữ liệu gần nhất: ID=2684, SYSTEM=SAP, TIME=error
+[2026-04-20 19:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 19:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 19:58:45] [INFO] connect success
+[2026-04-20 19:58:46] [INFO] SQL executed successfully
+[2026-04-20 20:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 20:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 20:28:45] [INFO] connect success
+[2026-04-20 20:28:45] [INFO] Dữ liệu gần nhất: ID=2685, SYSTEM=SAP, TIME=error
+[2026-04-20 20:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 20:28:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 20:28:46] [INFO] connect success
+[2026-04-20 20:28:46] [INFO] SQL executed successfully
+[2026-04-20 20:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 20:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 20:58:45] [INFO] connect success
+[2026-04-20 20:58:45] [INFO] Dữ liệu gần nhất: ID=2686, SYSTEM=SAP, TIME=error
+[2026-04-20 20:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 20:58:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 20:58:46] [INFO] connect success
+[2026-04-20 20:58:46] [INFO] SQL executed successfully
+[2026-04-20 21:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 21:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 21:28:45] [INFO] connect success
+[2026-04-20 21:28:45] [INFO] Dữ liệu gần nhất: ID=2687, SYSTEM=SAP, TIME=error
+[2026-04-20 21:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 21:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 21:28:46] [INFO] connect success
+[2026-04-20 21:28:46] [INFO] SQL executed successfully
+[2026-04-20 21:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 21:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 21:58:45] [INFO] connect success
+[2026-04-20 21:58:45] [INFO] Dữ liệu gần nhất: ID=2688, SYSTEM=SAP, TIME=error
+[2026-04-20 21:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 21:58:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 21:58:46] [INFO] connect success
+[2026-04-20 21:58:46] [INFO] SQL executed successfully
+[2026-04-20 22:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 22:28:46] [INFO] Check trạng thái SAP
+[2026-04-20 22:28:46] [INFO] connect success
+[2026-04-20 22:28:46] [INFO] Dữ liệu gần nhất: ID=2689, SYSTEM=SAP, TIME=error
+[2026-04-20 22:28:46] [INFO] Load dữ liệu PBI
+[2026-04-20 22:28:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 22:28:46] [INFO] connect success
+[2026-04-20 22:28:46] [INFO] SQL executed successfully
+[2026-04-20 22:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 22:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 22:58:45] [INFO] connect success
+[2026-04-20 22:58:45] [INFO] Dữ liệu gần nhất: ID=2690, SYSTEM=SAP, TIME=error
+[2026-04-20 22:58:45] [INFO] Load dữ liệu PBI
+[2026-04-20 22:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 22:58:45] [INFO] connect success
+[2026-04-20 22:58:46] [INFO] SQL executed successfully
+[2026-04-20 23:28:45] [INFO] Update dữ liệu PBI
+[2026-04-20 23:28:45] [INFO] Check trạng thái SAP
+[2026-04-20 23:28:45] [INFO] connect success
+[2026-04-20 23:28:45] [INFO] Dữ liệu gần nhất: ID=2691, SYSTEM=SAP, TIME=error
+[2026-04-20 23:28:45] [INFO] Load dữ liệu PBI
+[2026-04-20 23:28:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 23:28:46] [INFO] connect success
+[2026-04-20 23:28:46] [INFO] SQL executed successfully
+[2026-04-20 23:58:45] [INFO] Update dữ liệu PBI
+[2026-04-20 23:58:45] [INFO] Check trạng thái SAP
+[2026-04-20 23:58:45] [INFO] connect success
+[2026-04-20 23:58:46] [INFO] Dữ liệu gần nhất: ID=2692, SYSTEM=SAP, TIME=error
+[2026-04-20 23:58:46] [INFO] Load dữ liệu PBI
+[2026-04-20 23:58:50] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-20 23:58:50] [INFO] connect success
+[2026-04-20 23:58:50] [INFO] SQL executed successfully

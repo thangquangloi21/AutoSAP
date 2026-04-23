@@ -1,0 +1,384 @@
+[2026-04-13 00:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 00:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 00:28:45] [INFO] connect success
+[2026-04-13 00:28:45] [INFO] Dữ liệu gần nhất: ID=2298, SYSTEM=SAP, TIME=error
+[2026-04-13 00:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 00:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 00:28:45] [INFO] connect success
+[2026-04-13 00:28:45] [INFO] SQL executed successfully
+[2026-04-13 00:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 00:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 00:58:45] [INFO] connect success
+[2026-04-13 00:58:45] [INFO] Dữ liệu gần nhất: ID=2299, SYSTEM=SAP, TIME=error
+[2026-04-13 00:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 00:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 00:58:45] [INFO] connect success
+[2026-04-13 00:58:45] [INFO] SQL executed successfully
+[2026-04-13 01:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 01:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 01:28:45] [INFO] connect success
+[2026-04-13 01:28:45] [INFO] Dữ liệu gần nhất: ID=2300, SYSTEM=SAP, TIME=error
+[2026-04-13 01:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 01:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 01:28:45] [INFO] connect success
+[2026-04-13 01:28:45] [INFO] SQL executed successfully
+[2026-04-13 01:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 01:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 01:58:45] [INFO] connect success
+[2026-04-13 01:58:45] [INFO] Dữ liệu gần nhất: ID=2301, SYSTEM=SAP, TIME=error
+[2026-04-13 01:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 01:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 01:58:45] [INFO] connect success
+[2026-04-13 01:58:45] [INFO] SQL executed successfully
+[2026-04-13 02:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 02:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 02:28:45] [INFO] connect success
+[2026-04-13 02:28:45] [INFO] Dữ liệu gần nhất: ID=2302, SYSTEM=SAP, TIME=error
+[2026-04-13 02:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 02:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 02:28:45] [INFO] connect success
+[2026-04-13 02:28:45] [INFO] SQL executed successfully
+[2026-04-13 02:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 02:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 02:58:45] [INFO] connect success
+[2026-04-13 02:58:45] [INFO] Dữ liệu gần nhất: ID=2303, SYSTEM=SAP, TIME=error
+[2026-04-13 02:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 02:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 02:58:45] [INFO] connect success
+[2026-04-13 02:58:45] [INFO] SQL executed successfully
+[2026-04-13 03:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 03:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 03:28:45] [INFO] connect success
+[2026-04-13 03:28:45] [INFO] Dữ liệu gần nhất: ID=2304, SYSTEM=SAP, TIME=error
+[2026-04-13 03:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 03:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 03:28:45] [INFO] connect success
+[2026-04-13 03:28:45] [INFO] SQL executed successfully
+[2026-04-13 03:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 03:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 03:58:45] [INFO] connect success
+[2026-04-13 03:58:45] [INFO] Dữ liệu gần nhất: ID=2305, SYSTEM=SAP, TIME=error
+[2026-04-13 03:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 03:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 03:58:45] [INFO] connect success
+[2026-04-13 03:58:45] [INFO] SQL executed successfully
+[2026-04-13 04:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 04:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 04:28:45] [INFO] connect success
+[2026-04-13 04:28:45] [INFO] Dữ liệu gần nhất: ID=2306, SYSTEM=SAP, TIME=error
+[2026-04-13 04:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 04:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 04:28:45] [INFO] connect success
+[2026-04-13 04:28:45] [INFO] SQL executed successfully
+[2026-04-13 04:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 04:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 04:58:45] [INFO] connect success
+[2026-04-13 04:58:45] [INFO] Dữ liệu gần nhất: ID=2307, SYSTEM=SAP, TIME=error
+[2026-04-13 04:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 04:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 04:58:45] [INFO] connect success
+[2026-04-13 04:58:45] [INFO] SQL executed successfully
+[2026-04-13 05:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 05:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 05:28:45] [INFO] connect success
+[2026-04-13 05:28:45] [INFO] Dữ liệu gần nhất: ID=2308, SYSTEM=SAP, TIME=error
+[2026-04-13 05:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 05:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 05:28:45] [INFO] connect success
+[2026-04-13 05:28:45] [INFO] SQL executed successfully
+[2026-04-13 05:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 05:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 05:58:45] [INFO] connect success
+[2026-04-13 05:58:45] [INFO] Dữ liệu gần nhất: ID=2309, SYSTEM=SAP, TIME=error
+[2026-04-13 05:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 05:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 05:58:45] [INFO] connect success
+[2026-04-13 05:58:45] [INFO] SQL executed successfully
+[2026-04-13 06:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 06:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 06:28:45] [INFO] connect success
+[2026-04-13 06:28:45] [INFO] Dữ liệu gần nhất: ID=2310, SYSTEM=SAP, TIME=error
+[2026-04-13 06:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 06:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 06:28:45] [INFO] connect success
+[2026-04-13 06:28:45] [INFO] SQL executed successfully
+[2026-04-13 06:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 06:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 06:58:45] [INFO] connect success
+[2026-04-13 06:58:45] [INFO] Dữ liệu gần nhất: ID=2311, SYSTEM=SAP, TIME=error
+[2026-04-13 06:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 06:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 06:58:45] [INFO] connect success
+[2026-04-13 06:58:45] [INFO] SQL executed successfully
+[2026-04-13 07:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 07:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 07:28:45] [INFO] connect success
+[2026-04-13 07:28:45] [INFO] Dữ liệu gần nhất: ID=2312, SYSTEM=SAP, TIME=error
+[2026-04-13 07:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 07:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 07:28:45] [INFO] connect success
+[2026-04-13 07:28:45] [INFO] SQL executed successfully
+[2026-04-13 07:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 07:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 07:58:45] [INFO] connect success
+[2026-04-13 07:58:45] [INFO] Dữ liệu gần nhất: ID=2313, SYSTEM=SAP, TIME=error
+[2026-04-13 07:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 07:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 07:58:45] [INFO] connect success
+[2026-04-13 07:58:45] [INFO] SQL executed successfully
+[2026-04-13 08:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 08:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 08:28:45] [INFO] connect success
+[2026-04-13 08:28:45] [INFO] Dữ liệu gần nhất: ID=2314, SYSTEM=SAP, TIME=error
+[2026-04-13 08:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 08:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 08:28:45] [INFO] connect success
+[2026-04-13 08:28:45] [INFO] SQL executed successfully
+[2026-04-13 08:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 08:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 08:58:45] [INFO] connect success
+[2026-04-13 08:58:45] [INFO] Dữ liệu gần nhất: ID=2315, SYSTEM=SAP, TIME=error
+[2026-04-13 08:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 08:58:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 08:58:46] [INFO] connect success
+[2026-04-13 08:58:46] [INFO] SQL executed successfully
+[2026-04-13 09:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 09:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 09:28:45] [INFO] connect success
+[2026-04-13 09:28:45] [INFO] Dữ liệu gần nhất: ID=2316, SYSTEM=SAP, TIME=error
+[2026-04-13 09:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 09:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 09:28:45] [INFO] connect success
+[2026-04-13 09:28:45] [INFO] SQL executed successfully
+[2026-04-13 09:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 09:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 09:58:45] [INFO] connect success
+[2026-04-13 09:58:45] [INFO] Dữ liệu gần nhất: ID=2317, SYSTEM=SAP, TIME=error
+[2026-04-13 09:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 09:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 09:58:45] [INFO] connect success
+[2026-04-13 09:58:45] [INFO] SQL executed successfully
+[2026-04-13 10:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 10:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 10:28:45] [INFO] connect success
+[2026-04-13 10:28:45] [INFO] Dữ liệu gần nhất: ID=2318, SYSTEM=SAP, TIME=error
+[2026-04-13 10:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 10:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 10:28:45] [INFO] connect success
+[2026-04-13 10:28:45] [INFO] SQL executed successfully
+[2026-04-13 10:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 10:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 10:58:45] [INFO] connect success
+[2026-04-13 10:58:45] [INFO] Dữ liệu gần nhất: ID=2319, SYSTEM=SAP, TIME=error
+[2026-04-13 10:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 10:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 10:58:45] [INFO] connect success
+[2026-04-13 10:58:45] [INFO] SQL executed successfully
+[2026-04-13 11:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 11:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 11:28:45] [INFO] connect success
+[2026-04-13 11:28:45] [INFO] Dữ liệu gần nhất: ID=2320, SYSTEM=SAP, TIME=error
+[2026-04-13 11:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 11:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 11:28:45] [INFO] connect success
+[2026-04-13 11:28:45] [INFO] SQL executed successfully
+[2026-04-13 11:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 11:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 11:58:45] [INFO] connect success
+[2026-04-13 11:58:45] [INFO] Dữ liệu gần nhất: ID=2321, SYSTEM=SAP, TIME=error
+[2026-04-13 11:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 11:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 11:58:45] [INFO] connect success
+[2026-04-13 11:58:45] [INFO] SQL executed successfully
+[2026-04-13 12:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 12:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 12:28:45] [INFO] connect success
+[2026-04-13 12:28:45] [INFO] Dữ liệu gần nhất: ID=2322, SYSTEM=SAP, TIME=error
+[2026-04-13 12:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 12:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 12:28:45] [INFO] connect success
+[2026-04-13 12:28:45] [INFO] SQL executed successfully
+[2026-04-13 12:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 12:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 12:58:45] [INFO] connect success
+[2026-04-13 12:58:45] [INFO] Dữ liệu gần nhất: ID=2323, SYSTEM=SAP, TIME=error
+[2026-04-13 12:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 12:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 12:58:45] [INFO] connect success
+[2026-04-13 12:58:45] [INFO] SQL executed successfully
+[2026-04-13 13:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 13:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 13:28:45] [INFO] connect success
+[2026-04-13 13:28:45] [INFO] Dữ liệu gần nhất: ID=2324, SYSTEM=SAP, TIME=error
+[2026-04-13 13:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 13:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 13:28:45] [INFO] connect success
+[2026-04-13 13:28:45] [INFO] SQL executed successfully
+[2026-04-13 13:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 13:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 13:58:45] [INFO] connect success
+[2026-04-13 13:58:45] [INFO] Dữ liệu gần nhất: ID=2325, SYSTEM=SAP, TIME=error
+[2026-04-13 13:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 13:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 13:58:45] [INFO] connect success
+[2026-04-13 13:58:45] [INFO] SQL executed successfully
+[2026-04-13 14:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 14:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 14:28:45] [INFO] connect success
+[2026-04-13 14:28:45] [INFO] Dữ liệu gần nhất: ID=2326, SYSTEM=SAP, TIME=error
+[2026-04-13 14:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 14:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 14:28:45] [INFO] connect success
+[2026-04-13 14:28:45] [INFO] SQL executed successfully
+[2026-04-13 14:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 14:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 14:58:45] [INFO] connect success
+[2026-04-13 14:58:45] [INFO] Dữ liệu gần nhất: ID=2327, SYSTEM=SAP, TIME=error
+[2026-04-13 14:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 14:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 14:58:45] [INFO] connect success
+[2026-04-13 14:58:45] [INFO] SQL executed successfully
+[2026-04-13 15:28:46] [INFO] Update dữ liệu PBI
+[2026-04-13 15:28:46] [INFO] Check trạng thái SAP
+[2026-04-13 15:28:46] [INFO] connect success
+[2026-04-13 15:28:46] [INFO] Dữ liệu gần nhất: ID=2328, SYSTEM=SAP, TIME=error
+[2026-04-13 15:28:46] [INFO] Load dữ liệu PBI
+[2026-04-13 15:28:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 15:28:46] [INFO] connect success
+[2026-04-13 15:28:46] [INFO] SQL executed successfully
+[2026-04-13 15:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 15:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 15:58:45] [INFO] connect success
+[2026-04-13 15:58:45] [INFO] Dữ liệu gần nhất: ID=2329, SYSTEM=SAP, TIME=error
+[2026-04-13 15:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 15:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 15:58:45] [INFO] connect success
+[2026-04-13 15:58:45] [INFO] SQL executed successfully
+[2026-04-13 16:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 16:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 16:28:45] [INFO] connect success
+[2026-04-13 16:28:45] [INFO] Dữ liệu gần nhất: ID=2330, SYSTEM=SAP, TIME=error
+[2026-04-13 16:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 16:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 16:28:45] [INFO] connect success
+[2026-04-13 16:28:45] [INFO] SQL executed successfully
+[2026-04-13 16:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 16:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 16:58:45] [INFO] connect success
+[2026-04-13 16:58:45] [INFO] Dữ liệu gần nhất: ID=2331, SYSTEM=SAP, TIME=error
+[2026-04-13 16:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 16:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 16:58:45] [INFO] connect success
+[2026-04-13 16:58:45] [INFO] SQL executed successfully
+[2026-04-13 17:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 17:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 17:28:45] [INFO] connect success
+[2026-04-13 17:28:45] [INFO] Dữ liệu gần nhất: ID=2332, SYSTEM=SAP, TIME=error
+[2026-04-13 17:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 17:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 17:28:45] [INFO] connect success
+[2026-04-13 17:28:45] [INFO] SQL executed successfully
+[2026-04-13 17:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 17:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 17:58:45] [INFO] connect success
+[2026-04-13 17:58:45] [INFO] Dữ liệu gần nhất: ID=2333, SYSTEM=SAP, TIME=error
+[2026-04-13 17:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 17:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 17:58:45] [INFO] connect success
+[2026-04-13 17:58:45] [INFO] SQL executed successfully
+[2026-04-13 18:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 18:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 18:28:45] [INFO] connect success
+[2026-04-13 18:28:45] [INFO] Dữ liệu gần nhất: ID=2334, SYSTEM=SAP, TIME=error
+[2026-04-13 18:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 18:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 18:28:45] [INFO] connect success
+[2026-04-13 18:28:45] [INFO] SQL executed successfully
+[2026-04-13 18:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 18:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 18:58:45] [INFO] connect success
+[2026-04-13 18:58:45] [INFO] Dữ liệu gần nhất: ID=2335, SYSTEM=SAP, TIME=error
+[2026-04-13 18:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 18:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 18:58:45] [INFO] connect success
+[2026-04-13 18:58:45] [INFO] SQL executed successfully
+[2026-04-13 19:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 19:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 19:28:45] [INFO] connect success
+[2026-04-13 19:28:45] [INFO] Dữ liệu gần nhất: ID=2336, SYSTEM=SAP, TIME=error
+[2026-04-13 19:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 19:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 19:28:45] [INFO] connect success
+[2026-04-13 19:28:45] [INFO] SQL executed successfully
+[2026-04-13 19:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 19:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 19:58:45] [INFO] connect success
+[2026-04-13 19:58:45] [INFO] Dữ liệu gần nhất: ID=2337, SYSTEM=SAP, TIME=error
+[2026-04-13 19:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 19:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 19:58:45] [INFO] connect success
+[2026-04-13 19:58:45] [INFO] SQL executed successfully
+[2026-04-13 20:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 20:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 20:28:45] [INFO] connect success
+[2026-04-13 20:28:45] [INFO] Dữ liệu gần nhất: ID=2338, SYSTEM=SAP, TIME=error
+[2026-04-13 20:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 20:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 20:28:45] [INFO] connect success
+[2026-04-13 20:28:45] [INFO] SQL executed successfully
+[2026-04-13 20:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 20:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 20:58:45] [INFO] connect success
+[2026-04-13 20:58:45] [INFO] Dữ liệu gần nhất: ID=2339, SYSTEM=SAP, TIME=error
+[2026-04-13 20:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 20:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 20:58:45] [INFO] connect success
+[2026-04-13 20:58:45] [INFO] SQL executed successfully
+[2026-04-13 21:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 21:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 21:28:45] [INFO] connect success
+[2026-04-13 21:28:45] [INFO] Dữ liệu gần nhất: ID=2340, SYSTEM=SAP, TIME=error
+[2026-04-13 21:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 21:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 21:28:45] [INFO] connect success
+[2026-04-13 21:28:45] [INFO] SQL executed successfully
+[2026-04-13 21:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 21:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 21:58:45] [INFO] connect success
+[2026-04-13 21:58:45] [INFO] Dữ liệu gần nhất: ID=2341, SYSTEM=SAP, TIME=error
+[2026-04-13 21:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 21:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 21:58:45] [INFO] connect success
+[2026-04-13 21:58:45] [INFO] SQL executed successfully
+[2026-04-13 22:28:45] [INFO] Update dữ liệu PBI
+[2026-04-13 22:28:45] [INFO] Check trạng thái SAP
+[2026-04-13 22:28:45] [INFO] connect success
+[2026-04-13 22:28:45] [INFO] Dữ liệu gần nhất: ID=2342, SYSTEM=SAP, TIME=error
+[2026-04-13 22:28:45] [INFO] Load dữ liệu PBI
+[2026-04-13 22:28:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 22:28:45] [INFO] connect success
+[2026-04-13 22:28:45] [INFO] SQL executed successfully
+[2026-04-13 22:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 22:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 22:58:45] [INFO] connect success
+[2026-04-13 22:58:45] [INFO] Dữ liệu gần nhất: ID=2343, SYSTEM=SAP, TIME=error
+[2026-04-13 22:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 22:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 22:58:45] [INFO] connect success
+[2026-04-13 22:58:45] [INFO] SQL executed successfully
+[2026-04-13 23:28:46] [INFO] Update dữ liệu PBI
+[2026-04-13 23:28:46] [INFO] Check trạng thái SAP
+[2026-04-13 23:28:46] [INFO] connect success
+[2026-04-13 23:28:46] [INFO] Dữ liệu gần nhất: ID=2344, SYSTEM=SAP, TIME=error
+[2026-04-13 23:28:46] [INFO] Load dữ liệu PBI
+[2026-04-13 23:28:46] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 23:28:46] [INFO] connect success
+[2026-04-13 23:28:46] [INFO] SQL executed successfully
+[2026-04-13 23:58:45] [INFO] Update dữ liệu PBI
+[2026-04-13 23:58:45] [INFO] Check trạng thái SAP
+[2026-04-13 23:58:45] [INFO] connect success
+[2026-04-13 23:58:45] [INFO] Dữ liệu gần nhất: ID=2345, SYSTEM=SAP, TIME=error
+[2026-04-13 23:58:45] [INFO] Load dữ liệu PBI
+[2026-04-13 23:58:45] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-13 23:58:45] [INFO] connect success
+[2026-04-13 23:58:45] [INFO] SQL executed successfully
