@@ -244,7 +244,7 @@ class WorkThread(threading.Thread):
                             df = pd.DataFrame(rows, columns=clean)
 
                             # Đẩy vào SQL Server (replace nếu bảng đã tồn tại)
-                            df.to_sql(table_name, sql_engine, if_exists='replace', index=False)
+                            # df.to_sql(table_name, sql_engine, if_exists='replace', index=False)
                             print(f"  ✅ Đã đẩy {len(df)} hàng vào bảng {table_name} trong SQL Server")
 
                         except Exception as e:
@@ -360,7 +360,8 @@ class WorkThread(threading.Thread):
             self.force_kill_window(title)
             self.check_openapp(title, filepath)
             
-            while True:
+            deadline = time.time() + 120
+            while time.time() < deadline:
                 self.bring_app_to_front(title)
                 print("Ấn nút làm mới")
                 kiemtra = self.timanh08(Loading)
@@ -371,6 +372,11 @@ class WorkThread(threading.Thread):
                 if kiemtraload:
                     print("Ấn OK")
                     break
+            else:
+                self.log.info("Timeout 2 phút: không tìm thấy nút Refresh, dừng vòng lặp.")
+                print("Timeout 2 phút, dừng vòng lặp.") 
+                self.force_kill_window(title)
+                return False
                 
             while True:
                 print("Kiểm tra xem load xong chưa")
