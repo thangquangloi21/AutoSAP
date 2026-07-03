@@ -77,3 +77,60 @@
 [2026-04-25 09:20:58] [INFO] Khởi động Flask API trên cổng 6666
 [2026-04-25 09:24:59] [INFO] Exit Flask API trên cổng 6666
 [2026-04-25 09:25:01] [INFO] Exit Flask API trên cổng 6666
+[2026-04-25 09:56:29] [INFO] Khởi động Flask API trên cổng 6666
+[2026-04-25 09:56:30] [INFO] Khởi động Flask API trên cổng 6666
+[2026-04-25 09:57:39] [INFO] Update dữ liệu PBI
+[2026-04-25 09:57:39] [INFO] Check trạng thái SAP
+[2026-04-25 09:57:39] [INFO] connect success
+[2026-04-25 09:57:39] [INFO] Dữ liệu gần nhất: ID=2818, SYSTEM=SAP, TIME=09:33 25-04-2026
+[2026-04-25 09:57:39] [INFO] Load dữ liệu PBI
+[2026-04-25 09:58:40] [INFO] Load Dữ liệu xong
+[2026-04-25 09:58:40] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-25 10:00:51] [INFO] Đẩy thành công
+[2026-04-25 10:00:51] [INFO] Tắt PBI
+[2026-04-25 10:00:51] [INFO] connect success
+[2026-04-25 10:00:51] [INFO] SQL executed successfully
+[2026-04-25 10:02:42] [INFO] Khởi động Flask API trên cổng 6666
+[2026-04-25 10:02:44] [INFO] Khởi động Flask API trên cổng 6666
+[2026-04-25 10:04:37] [INFO] Update dữ liệu PBI
+[2026-04-25 10:04:37] [INFO] Check trạng thái SAP
+[2026-04-25 10:04:37] [INFO] connect success
+[2026-04-25 10:04:37] [INFO] Dữ liệu gần nhất: ID=2819, SYSTEM=SAP, TIME=10:00 25-04-2026
+[2026-04-25 10:04:37] [INFO] Load dữ liệu PBI
+[2026-04-25 10:06:39] [INFO] Timeout 2 phút: không tìm thấy nút Refresh, dừng vòng lặp.
+[2026-04-25 10:06:40] [INFO] connect success
+[2026-04-25 10:06:40] [INFO] SQL executed successfully
+[2026-04-25 10:06:55] [INFO] Update dữ liệu PBI
+[2026-04-25 10:06:55] [INFO] Check trạng thái SAP
+[2026-04-25 10:06:55] [INFO] connect success
+[2026-04-25 10:06:55] [INFO] Dữ liệu gần nhất: ID=2821, SYSTEM=SAP, TIME=error
+[2026-04-25 10:06:55] [INFO] Load dữ liệu PBI
+[2026-04-25 10:06:57] [INFO] có lỗi trong quá trình thực hiện PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+[2026-04-25 10:06:57] [INFO] connect success
+[2026-04-25 10:06:57] [INFO] SQL executed successfully
+[2026-04-25 10:07:30] [INFO] Update dữ liệu PBI
+[2026-04-25 10:07:30] [INFO] Check trạng thái SAP
+[2026-04-25 10:07:30] [INFO] connect success
+[2026-04-25 10:07:30] [INFO] Dữ liệu gần nhất: ID=2822, SYSTEM=SAP, TIME=error
+[2026-04-25 10:07:30] [INFO] Load dữ liệu PBI
+[2026-04-25 10:08:26] [INFO] Load Dữ liệu xong
+[2026-04-25 10:08:26] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-25 10:10:04] [INFO] Đẩy thành công
+[2026-04-25 10:10:04] [INFO] Tắt PBI
+[2026-04-25 10:10:04] [INFO] connect success
+[2026-04-25 10:10:04] [INFO] SQL executed successfully
+[2026-04-25 10:10:47] [INFO] Khởi động Flask API trên cổng 6666
+[2026-04-25 10:10:52] [INFO] Khởi động Flask API trên cổng 6666
+[2026-04-25 10:11:04] [INFO] Update dữ liệu PBI
+[2026-04-25 10:11:04] [INFO] Check trạng thái SAP
+[2026-04-25 10:11:04] [INFO] connect success
+[2026-04-25 10:11:04] [INFO] Dữ liệu gần nhất: ID=2823, SYSTEM=SAP, TIME=10:10 25-04-2026
+[2026-04-25 10:11:04] [INFO] Load dữ liệu PBI
+[2026-04-25 10:12:06] [INFO] Load Dữ liệu xong
+[2026-04-25 10:12:06] [INFO] Đẩy dữ liệu vào PBI
+[2026-04-25 10:14:36] [INFO] Đẩy thành công
+[2026-04-25 10:14:36] [INFO] Tắt PBI
+[2026-04-25 10:14:36] [INFO] connect success
+[2026-04-25 10:14:36] [INFO] SQL executed successfully
+[2026-04-25 12:53:01] [INFO] Exit Flask API trên cổng 6666
+[2026-04-25 12:53:03] [INFO] Exit Flask API trên cổng 6666

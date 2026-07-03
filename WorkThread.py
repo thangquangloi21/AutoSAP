@@ -195,11 +195,15 @@ class WorkThread(threading.Thread):
                 print("\n=== Đẩy dữ liệu vào SQL Server ===")
 
                 # Cấu hình SQL Server (thay đổi theo server của bạn)
-                sql_server = "10.239.1.54"  # Thay bằng server name (ví dụ: "DESKTOP-ABC\SQLEXPRESS")
-                sql_database = "DB_SAP_DWH"  # Thay bằng database name (tạo database trước nếu chưa có)
-                sql_username = "sa"  # Thay bằng username
-                sql_password = "123456"  # Thay bằng password
+                # sql_server = "10.239.1.54"  # Thay bằng server name (ví dụ: "DESKTOP-ABC\SQLEXPRESS")
+                # sql_database = "DB_SAP_DWH"  # Thay bằng database name (tạo database trước nếu chưa có)
+                # sql_username = "sa"  # Thay bằng username
+                # sql_password = "123456"  # Thay bằng password
 
+                sql_server = "localhost"  # Thay bằng server name (ví dụ: "DESKTOP-ABC\SQLEXPRESS")
+                sql_database = "DB_SAP_DWH"  # Thay bằng database name (tạo database trước nếu chưa có)
+                sql_username = "loitq"  # Thay bằng username
+                sql_password = "249533"  # Thay bằng password
                 
                 import re
 
@@ -210,9 +214,12 @@ class WorkThread(threading.Thread):
 
                 
                 try:
-                    # Tạo connection string cho SQL Server
+                    # Tạo connection string cho SQL Server với hỗ trợ UTF-8
                     sql_conn_str = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={sql_server};DATABASE={sql_database};UID={sql_username};PWD={sql_password}"
-                    sql_engine = create_engine(f"mssql+pyodbc:///?odbc_connect={urllib.parse.quote_plus(sql_conn_str)}")
+                    sql_engine = create_engine(
+                        f"mssql+pyodbc:///?odbc_connect={urllib.parse.quote_plus(sql_conn_str)}",
+                        connect_args={"autocommit": True}
+                    )
 
                     # Test connection
                     with sql_engine.connect() as test_conn:
@@ -240,11 +247,17 @@ class WorkThread(threading.Thread):
                             if not rows:
                                 print(f"  Bảng {table_name} trống, bỏ qua.")
                                 continue
-
+                                
                             df = pd.DataFrame(rows, columns=clean)
+                            
+                            # Xử lý encoding cho các cột text (chuyển sang UTF-8), bỏ qua NaN
+                            for col in df.columns:
+                                if df[col].dtype == 'object':
+                                    df[col] = df[col].apply(lambda x: x.encode('utf-8', errors='ignore').decode('utf-8') if isinstance(x, str) else x)
 
                             # Đẩy vào SQL Server (replace nếu bảng đã tồn tại)
-                            # df.to_sql(table_name, sql_engine, if_exists='replace', index=False)
+                            with sql_engine.begin() as connection:
+                                df.to_sql(table_name, connection, if_exists='replace', index=False, method='multi', chunksize=1000)
                             print(f"  ✅ Đã đẩy {len(df)} hàng vào bảng {table_name} trong SQL Server")
 
                         except Exception as e:
