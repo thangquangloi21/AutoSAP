@@ -1,381 +1,365 @@
 # class xử lý công việc trong thread riêng
-import threading
-import subprocess
-from Log import Logger
-# import paramiko
-from sqlalchemy import create_engine, text
-import csv
-from pathlib import Path
-# main.py
-import sys, os
-import pyautogui
-import ctypes
-import subprocess
-import time
-import pygetwindow as gw
-import os
-
-# Force pythonnet to use .NET Core
-os.environ['PYTHONNET_RUNTIME'] = 'coreclr'
-
-# 1) Thêm THƯ MỤC chứa DLL vào PATH (để clr tìm thấy AdomdClient.dll)
-dll_dir = os.path.abspath(r".\adomd_nuget\lib\net8.0")
-os.environ['PATH'] += os.pathsep + dll_dir
-# Thêm cả thư mục native nếu cần
-native_dir = os.path.abspath(r".\adomd_nuget\runtimes\win-x64\native")
-os.environ['PATH'] += os.pathsep + native_dir
-
-# 2) Load the assembly manually
-import pythonnet
-pythonnet.load('coreclr')
-
-import clr
-clr.AddReference(os.path.join(os.getcwd(), 'modun/Microsoft.AnalysisServices.Runtime.Core.dll'))
-clr.AddReference(os.path.join(os.getcwd(), 'modun/Microsoft.AnalysisServices.Runtime.Windows.dll'))
-clr.AddReference(os.path.join(os.getcwd(), 'modun/Microsoft.AnalysisServices.AdomdClient.dll'))
-# 3) BÂY GIỜ mới import pyadomd
-from pyadomd import Pyadomd
-import pandas as pd
-# Import thêm cho SQL Server
-import pyodbc
-from sqlalchemy import create_engine
-import urllib.parse
-import subprocess
 import re
+import subprocess
+import sys
+import threading
+from dataclasses import dataclass, replace
+from datetime import datetime
+from pathlib import Path
+from typing import Any, Tuple, Union
+
+import pandas as pd  # type: ignore[reportMissingModuleSource]
+import pyodbc  # type: ignore[reportMissingImports]
+
+from Log import Logger
+
+APP_DIR = Path(sys.executable).resolve().parent if getattr(sys, "frozen", False) else Path(__file__).resolve().parent
+RESOURCE_DIR = Path(getattr(sys, "_MEIPASS", APP_DIR))
+
+SQL_IDENTIFIER_PATTERN = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*(\.[A-Za-z_][A-Za-z0-9_]*){0,2}$")
+
+
+@dataclass(frozen=True)
+class ExportPaths:
+    vbs_script: Path
+    export_folder: Path
+    excel_file: Path
+    csv_file: Path
+
+
+@dataclass(frozen=True)
+class SqlConfig:
+    driver: str
+    server: str
+    database: str
+    table: str
+    staging_table: str
+    username: str
+    password: str
+    trusted_connection: bool
+    bcp_path: str
+    first_row: str
+    code_page: str
+
 
 
 
 class WorkThread(threading.Thread):
-    # SQL
-    server = "10.239.1.54"
-    database = "Data_qad"
-    schema = "dbo"
-    username = "sa"
-    password = "123456"
     def __init__(self):
         threading.Thread.__init__(self)
-        self.log = Logger()
-        
-        # self.log.info("Application initialized")
-    
-    def find_powerbi_port(self) -> str | None:
-        """Tìm port của Power BI Desktop (msmdsrv.exe) trên máy local."""
-        try:
-            tasklist = subprocess.check_output(["tasklist", "/FI", "IMAGENAME eq msmdsrv.exe", "/FO", "CSV", "/NH"], text=True)
-            if not tasklist.strip():
-                return None
+        self.log = Logger(log_dir="Logs")
 
-            # Lấy PID từ tasklist output: "msmdsrv.exe","1234",...
-            pid = tasklist.split(",")[1].strip('"')
-            netstat = subprocess.check_output(["netstat", "-ano"], text=True)
-            # Tìm line có PID và đang LISTENING trên localhost
-            pattern = re.compile(r"^\s*TCP\s+127\.0\.0\.1:(\d+)\s+.*LISTENING\s+" + re.escape(pid), re.MULTILINE)
-            match = pattern.search(netstat)
-            if match:
-                return match.group(1)
-        except Exception:
-            return None
+        # self.log.info("Application initialized")
+
+    
 
     def Check_Status(self, SYSTEM):
+        self.log.info(f"Check trạng thái {SYSTEM}")
         try:
-            self.log.info(f"Check trạng thái {SYSTEM}")
-            conect = self.conn()
-            # Kiểm tra nếu Eror
-            with conect.begin() as connection:
-                result = connection.execute(text(f"SELECT TOP (1) [ID] ,[SYSTEM] ,[TIME] FROM [ACWO].[dbo].[DataStatus]  where system = '{SYSTEM}' order by id desc"))
-                row = result.fetchone()
-                
-                if row:
-                    self.log.info(f"Dữ liệu gần nhất: ID={row[0]}, SYSTEM={row[1]}, TIME={row[2]}")
-                    print(f"Dữ liệu: {row[2]}")
-                    return row[2]
-                else:
-                    self.log.info("Không có dữ liệu.")
-                    print("Không có dữ liệu.")
+            conn = pyodbc.connect(
+                "DRIVER={SQL Server};"
+                "SERVER=10.239.1.54;"
+                "DATABASE=ACWO;"
+                "UID=sa;"
+                "PWD=123456;"
+            )
+            cursor = conn.cursor()
+
+            cursor.execute("""
+                SELECT TOP 1 [ID], [SYSTEM], [TIME]
+                FROM [ACWO].[dbo].[DataStatus]
+                WHERE [SYSTEM] = ?
+                ORDER BY [ID] DESC
+            """, SYSTEM)
+
+            row = cursor.fetchone()
+            conn.close()
+
+            if row:
+                self.log.info(f"Dữ liệu gần nhất: ID={row[0]}, SYSTEM={row[1]}, TIME={row[2]}")
+                print(f"Dữ liệu: {row[2]}")
+                return row[2]
+
+            self.log.info("Không có dữ liệu.")
+            print("Không có dữ liệu.")
+            return "error"
+
         except Exception as e:
             self.log.error(f"error: {e}")
+            return "error"
+
     
     
-    def Insert_SQL(self, SQL):
-        try:
-            conect = self.conn()
-            # Kiểm tra nếu Eror
-            with conect.begin() as connection:
-                result = connection.execute(text(f"{SQL}"))
-                if SQL.strip().upper().startswith('SELECT'):
-                    row = result.fetchone()
-                    
-                    if row:
-                        self.log.info(f"Dữ liệu gần nhất: ID={row[0]}, SYSTEM={row[1]}, TIME={row[2]}")
-                        print(f"Dữ liệu: {row}")
-                        # return row
-                    else:
-                        self.log.info("Không có dữ liệu.")
-                        print("Không có dữ liệu.")
-                else:
-                    self.log.info("SQL executed successfully")
-        except Exception as e:
-            self.log.error(f"error: {e}")
-            
-            
-    def conn(self):
-        # Database connection and data processing
-        try:
-            server = self.server
-            database = self.database
-            username = self.username
-            password = self.password
-            driver = 'ODBC Driver 18 for SQL Server'
+    def resolve_path(self ,path_value: Union[Path, str], resource: bool = False) -> Path:
+        path = Path(path_value)
+        if path.is_absolute():
+            return path
+        if resource:
+            app_path = APP_DIR / path
+            if app_path.exists():
+                return app_path
+            return RESOURCE_DIR / path
+        return APP_DIR / path
 
-            connection_string = f'mssql+pyodbc://{username}:{password}@{server}/{database}?driver={driver}&TrustServerCertificate=yes'
-            engine = create_engine(connection_string)
-            self.log.info("connect success")
-            return engine
-        except Exception as e:
-            self.log.error(f"Error connecting to database: {e}")
 
-    def PBIToSql(self):
-        try:
-            # 3a) Port có thể được truyền qua môi trường (tiện khi chạy nhiều lần)
-            port = os.environ.get("PBIPORT") or self.find_powerbi_port() or "51328"
-            if os.environ.get("PBIPORT"):
-                print(f"Using port from PBIPORT environment variable: {port}")
-            elif port != "51328":
-                print(f"Detected Power BI port: {port}")
-            else:
-                print("Using default port 51328 (may be wrong). Set PBIPORT or update PORT variable.")
-
-            conn_str = f"Data Source=localhost:{port}"
-            with Pyadomd(conn_str) as conn:
-                # 1) Liệt kê các bảng (Dimensions) trong model
-                cube = conn.conn.Cubes[0]
-                dimensions = cube.Dimensions
-
-                tables = []
-                for i in range(dimensions.Count):
-                    dim = dimensions[i]
-                    tables.append({
-                        'TABLE_NAME': dim.Name,
-                        'HIERARCHIES': dim.Hierarchies.Count,
-                        'ATTRIBUTES': dim.AttributeHierarchies.Count,
-                    })
-
-                tables_df = pd.DataFrame(tables)
-                print("\n=== Tables in the model ===")
-                print(tables_df.to_string(index=False))
-
-                # 2) Hiển thị cột/thuộc tính cho bảng đầu tiên (nếu cần)
-                if not tables_df.empty:
-                    first_table = tables_df.loc[0, 'TABLE_NAME']
-                    dim = next(d for d in dimensions if d.Name == first_table)
-                    columns = [dim.AttributeHierarchies[i].Name for i in range(dim.AttributeHierarchies.Count)]
-                    print(f"\n=== Columns in table '{first_table}' ===")
-                    for col in columns:
-                        print(f" - {col}")
-
-                # 3) Refresh metadata (and optionally data)
-                #    This calls AdomdConnection.RefreshMetadata() which refreshes metadata
-                #    and helps ensure the schema is up-to-date.
-                #
-                #    Note: RefreshMetadata does NOT refresh underlying data sources.
-                #    For a full data refresh, use Power BI refresh workflows (Power BI API / REST / UI).
-                do_refresh = True
-                if do_refresh:
-                    conn.conn.RefreshMetadata()
-                    print('\nModel metadata refresh triggered.')
-
-            
-
-                # 5) Đẩy dữ liệu từ tất cả bảng PBI vào SQL Server
-                print("\n=== Đẩy dữ liệu vào SQL Server ===")
-
-                # Cấu hình SQL Server (thay đổi theo server của bạn)
-                sql_server = "10.239.1.54"  # Thay bằng server name (ví dụ: "DESKTOP-ABC\SQLEXPRESS")
-                sql_database = "DB_SAP_DWH"  # Thay bằng database name (tạo database trước nếu chưa có)
-                sql_username = "sa"  # Thay bằng username
-                sql_password = "123456"  # Thay bằng password
-
-                
-                import re
-
-                def strip_table_prefix(colname: str) -> str:
-                    # Nếu dạng "SOMETHING[NAME]" thì lấy NAME
-                    m = re.match(r'^.*\[(.+?)\]$', colname)
-                    return m.group(1) if m else colname
-
-                
-                try:
-                    # Tạo connection string cho SQL Server
-                    sql_conn_str = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={sql_server};DATABASE={sql_database};UID={sql_username};PWD={sql_password}"
-                    sql_engine = create_engine(f"mssql+pyodbc:///?odbc_connect={urllib.parse.quote_plus(sql_conn_str)}")
-
-                    # Test connection
-                    with sql_engine.connect() as test_conn:
-                        print("✅ Kết nối SQL Server thành công!")
-
-                    # Lặp qua tất cả bảng và đẩy dữ liệu
-                    for table_name in tables_df['TABLE_NAME']:
-                        if table_name == 'Measures':  # Bỏ qua bảng Measures (không phải data table)
-                            continue
-
-                        print(f"\nĐang xử lý bảng: {table_name}")
-
-                        try:
-                            # Query toàn bộ dữ liệu từ bảng PBI (giới hạn 1000 hàng để demo)
-                            dax_query = f"EVALUATE ({table_name})"
-                            with conn.cursor().execute(dax_query) as cur:
-                                cols = [c[0] for c in cur.description]
-                                rows = [list(r) for r in cur.fetchall()]
-                                clean = [strip_table_prefix(s) for s in cols]
-                                # print(clean)
-                                
-                            
-                            
-
-                            if not rows:
-                                print(f"  Bảng {table_name} trống, bỏ qua.")
-                                continue
-
-                            df = pd.DataFrame(rows, columns=clean)
-
-                            # Đẩy vào SQL Server (replace nếu bảng đã tồn tại)
-                            df.to_sql(table_name, sql_engine, if_exists='replace', index=False)
-                            print(f"  ✅ Đã đẩy {len(df)} hàng vào bảng {table_name} trong SQL Server")
-
-                        except Exception as e:
-                            print(f"  ❌ Lỗi khi xử lý bảng {table_name}: {e}")
-
-                    print("\n🎉 Hoàn tất đẩy dữ liệu từ Power BI vào SQL Server!")
-
-                except Exception as e:
-                    print(f"❌ Lỗi kết nối SQL Server: {e}")
-                    print("💡 Hãy kiểm tra:")
-                    print("  - SQL Server có chạy không?")
-                    print("  - Database 'PowerBI_Data' có tồn tại không?")
-                    print("  - Username/password đúng không?")
-                    print("  - ODBC Driver 17 for SQL Server có cài không?")
-        except Exception as e:
-            print("Failed to connect to Power BI Analysis Services:")
-            print(f"  Connection string: {conn_str}")
-            print(f"  Error: {e}")
-            raise
+    def get_config(self) -> Tuple[ExportPaths, SqlConfig]:
+        export_paths = ExportPaths(
+            vbs_script=self.resolve_path("Script/ZPPI189.vbs", resource=True),
+            export_folder=self.resolve_path("Data"),
+            excel_file=self.resolve_path("Data") / "INT189.XLSX",
+            csv_file=self.resolve_path("Data/INT189.csv"),
+        )
         
+        sql_config = SqlConfig(
+            driver="SQL Server",
+            server="10.239.1.54",
+            database="SAPData",
+            table="ZPPI189",
+            staging_table="ZPPI189_new",
+            username="sa",
+            password="123456",
+            trusted_connection=False,
+            bcp_path="bcp",
+            first_row="2",
+            code_page="65001",
+        )
         
-    def timanh05(self, img):
-            try:
-                button_location = pyautogui.locateOnScreen(img, confidence=0.5)
-                # print(button_location)
-                # pyautogui.moveTo(button_location)
-                return True
-            except Exception as e:
-                # print("Không tìm thấy nút")
-                return False
-
-    def timanh08(self, img):
-            try:
-                button_location = pyautogui.locateOnScreen(img, confidence=0.8)
-                # print(button_location)
-                pyautogui.moveTo(button_location)
-                return button_location
-            except Exception as e:
-                # print("Không tìm thấy nút")
-                return False
-            
-    # kiểm tra app đã mở hay chưa?
-    def is_app_open(self ,window_title):
-                return any(window_title in title for title in gw.getAllTitles())
-                    
-
-    def bring_app_to_front(self, window_title):
-                try:
-                    window = gw.getWindowsWithTitle(window_title)[0]
-                    # Khôi phục cửa sổ nếu nó đang ở trạng thái minimize
-                    if window.isMinimized:
-                        window.restore()
-                        # Đưa cửa sổ lên trên cùng
-                        window.activate()
-                        print(f"Cửa sổ '{window_title}' đã được đưa lên trên cùng.")
-                except IndexError:
-                    print(f"Cửa sổ '{window_title}' không tìm thấy.")
+        return export_paths, sql_config
 
 
-    def minimize_window(self, window_title: str):
-            try:
-                window = gw.getWindowsWithTitle(window_title)[0]
-                if not window.isMinimized:
-                    window.minimize()   # Thu nhỏ xuống taskbar
-                    print(f"Đã thu nhỏ: '{window_title}'")
-                else:
-                    print(f"Cửa sổ '{window_title}' đã ở trạng thái thu nhỏ.")
-            except IndexError:
-                print(f"Không tìm thấy cửa sổ: '{window_title}'")
+    def setup_logging(self):
+        self.log = Logger(log_dir="Logs")
+        self.log.info("Log file: %s", self.log.log_path)
+        return self.log.log_path
 
 
-    def openapps_btn(self, path):
-                    try:
-                        os.startfile(path)
-                    except FileNotFoundError:
-                        print("Không tìm thấy app(Sai Link)")
-                        # messagebox.showinfo("Thông Báo", "Không tìm thấy app(Sai Link)")
-                    except Exception as e:
-                        print(f"Lỗi: {e}")
-                        
+    def log_subprocess_output(self, name: str, result: subprocess.CompletedProcess[str]) -> None:
+        self.log.info(f"{name} return code: {result.returncode}")
+        if result.stdout:
+            self.log.info(f"{name} stdout:\n{result.stdout.strip()}")
+        if result.stderr:
+            self.log.warning(f"{name} stderr:\n{result.stderr.strip()}")
 
-    def check_openapp(self, Title, FilePath):
-            if self.is_app_open(Title):
-                self.bring_app_to_front(Title)
-            else:
-                self.openapps_btn(FilePath)
-                
-                
-    def Load_Data(self):
-        try:
-            self.log.info("Load dữ liệu PBI")
-            Refresh = r'IMG/Refresh.png'
-            Loading = r'IMG/Loading.png'
-            title = "DW_SAP_PBI"
-            filepath = r"C:\Users\249533\Downloads\DW_SAP_PBI.pbix"
-            self.check_openapp(title, filepath)
-            
-            while True:
-                self.bring_app_to_front(title)
-                print("Ấn nút làm mới")
-                kiemtra = self.timanh08(Loading)
-                pyautogui.click(kiemtra)
-                print("Kiểm tra đã ấn được chưa")
-                kiemtraload = self.timanh05(Refresh)
-                time.sleep(2)
-                if kiemtraload:
-                    print("Ấn OK")
-                    break
-                
-            while True:
-                print("Kiểm tra xem load xong chưa")
-                kiemtra = self.timanh05(Refresh)
-                time.sleep(3)
-                if kiemtra is False:
-                    print("Load Xong Roi")
-                    break
-            self.log.info("Load Dữ liệu xong")
-            self.minimize_window(title)
-            self.log.info("Đẩy dữ liệu vào PBI")
-            self.PBIToSql()
-            self.log.info("Đẩy thành công")
+    def _is_vbs_failure(self, result: subprocess.CompletedProcess[str]) -> bool:
+        if result.returncode != 0:
             return True
-        
-        except Exception as e:
-            self.log.info(f"có lỗi trong quá trình thực hiện {e}")
-            return False
+
+        output_text = "\n".join(filter(None, [result.stdout, result.stderr])).lower()
+        failure_markers = [
+            "could not be found by id",
+            "control could not be found",
+            "the control could not be found",
+        ]
+        return any(marker in output_text for marker in failure_markers)
+
+    def run_sap_export(self, vbs_script: Path) -> None:
+        self.log.info("Run SAP export script")
+        vbs_result = subprocess.run(["cscript", "//NoLogo", str(vbs_script)], capture_output=True, text=True)
+        self.log_subprocess_output(f"cscript {vbs_script.name}", vbs_result)
+        if self._is_vbs_failure(vbs_result):
+            combined_output = "\n".join(filter(None, [vbs_result.stdout.strip(), vbs_result.stderr.strip()]))
+            raise RuntimeError(f"VBS script failed: {combined_output or 'unknown error'}")
+
+
+    def validate_excel_file(self, excel_file: Path, started_at: datetime) -> None:
+        if not excel_file.exists():
+            raise FileNotFoundError(f"Excel export file does not exist: {excel_file}")
+        if excel_file.stat().st_size == 0:
+            raise RuntimeError(f"Excel export file is empty: {excel_file}")
+        modified_at = datetime.fromtimestamp(excel_file.stat().st_mtime)
+        if modified_at < started_at:
+            raise RuntimeError(f"Excel export file was not refreshed in this run: {excel_file}")
+        self.log.info(f"Excel file size: {excel_file.stat().st_size} bytes")
+
+
+
+    def convert_excel_to_csv(self, input_file: Path, output_file: Path) -> int:
+        self.log.info("Read Excel file")
+
+        df =  pd.read_excel(
+            input_file,
+            engine="openpyxl",
+            dtype=str,
+            keep_default_na=False
             
+        )
         
-        
-        
-    
-   
 
-   
+        self.log.info(f"Excel rows: {len(df)}")
 
-   
+        if df.empty:
+            raise RuntimeError("Excel export contains no data rows")
 
-    
-  
+        self.log.info("Write CSV file")
+
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+
+        df.to_csv(
+            output_file,
+            sep=";",
+            index=False,
+            encoding="utf-8-sig"
+        )
+
+        self.log.info(f"Converted: {input_file} -> {output_file}")
+
+        return len(df)
+
+
+    def build_connection_string(self, sql_config: SqlConfig) -> str:
+        parts = [
+            f"DRIVER={{{sql_config.driver}}}",
+            f"SERVER={sql_config.server}",
+            f"DATABASE={sql_config.database}",
+        ]
+        if sql_config.trusted_connection:
+            parts.append("Trusted_Connection=yes")
+        else:
+            parts.extend([f"UID={sql_config.username}", f"PWD={sql_config.password}"])
+        return ";".join(parts)
+
+
+    def truncate_table(self, sql_config: SqlConfig) -> None:
+        self.log.info(f"Connect SQL and truncate {sql_config.table}")
+        conn: Any = pyodbc.connect(self.build_connection_string(sql_config))  # type: ignore[reportUnknownMemberType]
+        conn.execute(f"TRUNCATE TABLE {sql_config.table}")  # type: ignore[reportUnknownMemberType]
+        conn.commit()  # type: ignore[reportUnknownMemberType]
+        conn.close()  # type: ignore[reportUnknownMemberType]
+        self.log.info(f"Truncated table {sql_config.table}")
+
+
+    def update_status(self, sql_config: SqlConfig) -> None:
+        self.log.info("Cập nhật thời gian làm mới thành công")
+        conn: Any = pyodbc.connect(self.build_connection_string(sql_config))  # type: ignore[reportUnknownMemberType]
+        conn.execute("INSERT INTO ACWO.dbo.DataStatus ([SYSTEM], [TIME]) VALUES ( 'INT189', FORMAT(GETDATE(), 'HH:mm dd-MM-yyyy'))")  # type: ignore[reportUnknownMemberType]
+        conn.commit()  # type: ignore[reportUnknownMemberType]
+        conn.close()  # type: ignore[reportUnknownMemberType]
+        self.log.info("Cập nhật thời gian thành công")
+
+
+
+    def del_Data(self, sql_config: SqlConfig) -> None:
+        self.log.info("Deleting data...")
+
+        conn = pyodbc.connect(self.build_connection_string(sql_config))
+
+        try:
+            conn.execute("""
+                DELETE A
+                FROM [SAPData].[dbo].[ZPPI189] A
+                INNER JOIN (
+                    SELECT DISTINCT
+                        [Work Order],
+                        [MES Component]
+                    FROM [SAPData].[dbo].[ZPPI189_new]
+                ) B
+                    ON A.[Work Order] = B.[Work Order]
+                AND A.[MES Component] = B.[MES Component]
+            """)
+            conn.commit()
+            self.log.info("Xóa dữ liệu thành công")
+        except Exception as e:
+            conn.rollback()
+            self.log.error(f"Lỗi: {e}")
+            raise
+        finally:
+            conn.close()
+
+    def run_bcp_import(self, sql_config: SqlConfig, csv_file: Path, table: str) -> None:
+        self.log.info(f"Run BCP import to {table}")
+
+        # Validate CSV file exists
+        if not csv_file.exists():
+            raise FileNotFoundError(f"CSV file not found: {csv_file}")
+
+        if "." in table:
+            destination = f"{sql_config.database}.{table}"
+        else:
+            destination = f"{sql_config.database}..{table}"
+
+        csv_path = str(csv_file.resolve())  # Absolute path
+
+        command = [
+            sql_config.bcp_path,
+            destination,
+            "in",
+            f'"{csv_path}"',  # Quote the path
+            "-c",
+            "-C",
+            sql_config.code_page,
+            "-t;",
+            r"-r\n",
+            "-F",
+            sql_config.first_row,
+            "-S",
+            sql_config.server,
+        ]
+        if sql_config.trusted_connection:
+            command.append("-T")
+        else:
+            command.extend(["-U", sql_config.username, "-P", sql_config.password])
+
+        self.log.info(f"BCP command: {' '.join(command)}")
+        result: subprocess.CompletedProcess[Any] = subprocess.run(" ".join(command), capture_output=True, text=True, shell=True)
+        self.log_subprocess_output("bcp import", result)
+        if result.returncode != 0:
+            raise RuntimeError("BCP import failed")
+
+
+    def replace_target_from_staging(self, sql_config: SqlConfig) -> None:
+        self.log.info(f"Replace {sql_config.table} from staging table {sql_config.staging_table}")
+        conn: Any = pyodbc.connect(self.build_connection_string(sql_config))  # type: ignore[reportUnknownMemberType]
+        try:
+            conn.autocommit = False  # type: ignore[reportUnknownMemberType]
+            # conn.execute(f"TRUNCATE TABLE {sql_config.table}")  # type: ignore[reportUnknownMemberType]
+            conn.execute(f"INSERT INTO {sql_config.table} SELECT * FROM {sql_config.staging_table}")  # type: ignore[reportUnknownMemberType]
+            conn.commit()  # type: ignore[reportUnknownMemberType]
+        except Exception:
+            conn.rollback()  # type: ignore[reportUnknownMemberType]
+            raise
+        finally:
+            conn.close()  # type: ignore[reportUnknownMemberType]
+        self.log.info("Replaced target table from staging")
+
+
+    def import_csv_to_sql(self ,sql_config: SqlConfig, csv_file: Path) -> None:
+        # Nếu có staging_table thì vào đây
+        if sql_config.staging_table:
+            # xóa Data trong bang phu DB 
+            self.truncate_table(replace(sql_config, table=sql_config.staging_table))
+            # insert vao bang phu
+            self.run_bcp_import(sql_config, csv_file, sql_config.staging_table)
+            # xoa du lieu trong bang chinh key wo-mescomp
+            self.del_Data(sql_config)
+            self.replace_target_from_staging(sql_config)
+            return
+        # # Nếu không có bảng phụ thì insert vào luôn
+        # truncate_table(sql_config)
+        # run_bcp_import(sql_config, csv_file, sql_config.table)
+
+
+    def ZPPI189(self):
+        try:
+            log_file = self.setup_logging()
+            export_paths, sql_config = self.get_config()
+            self.log.info("Start XuatDuLieuSAP")
+            self.log.info(f"VBS script: {export_paths.vbs_script}")
+            self.log.info(f"Excel input: {export_paths.excel_file}")
+            self.log.info(f"CSV output: {export_paths.csv_file}")
+            self.log.info(f"SQL target: {sql_config.database}.{sql_config.table}")
+
+            started_at = datetime.now()
+            self.run_sap_export(export_paths.vbs_script)
+            self.validate_excel_file(export_paths.excel_file, started_at)
+            self.convert_excel_to_csv(export_paths.excel_file, export_paths.csv_file)
+            self.import_csv_to_sql(sql_config, export_paths.csv_file)
+            self.update_status(sql_config)
+            self.log.info("Finished XuatDuLieuSAP successfully")
+            return True
+        except Exception as e:
+            return False
+        finally:
+            return True
+
+
+

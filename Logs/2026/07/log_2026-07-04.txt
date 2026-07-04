@@ -1,0 +1,259 @@
+[2026-07-04 14:22:53] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:23:05] [INFO] Run INT 211
+[2026-07-04 14:23:05] [INFO] Log file: Logs\2026\07\log_2026-07-04.txt
+[2026-07-04 14:23:05] [INFO] Start XuatDuLieuSAP
+[2026-07-04 14:23:05] [INFO] VBS script: D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs
+[2026-07-04 14:23:05] [INFO] Excel input: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX
+[2026-07-04 14:23:05] [INFO] CSV output: D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 14:23:05] [INFO] SQL target: SAPData.ZPPI189
+[2026-07-04 14:23:05] [INFO] Run SAP export script
+[2026-07-04 14:23:09] [INFO] cscript ZPPI189.vbs return code: 0
+[2026-07-04 14:23:09] [WARN] cscript ZPPI189.vbs stderr:
+D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs(50, 1) SAP Frontend Server: The control could not be found by id.
+[2026-07-04 14:23:39] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:23:52] [INFO] Run INT 211
+[2026-07-04 14:23:52] [INFO] Log file: Logs\2026\07\log_2026-07-04.txt
+[2026-07-04 14:23:52] [INFO] Start XuatDuLieuSAP
+[2026-07-04 14:23:52] [INFO] VBS script: D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs
+[2026-07-04 14:23:52] [INFO] Excel input: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX
+[2026-07-04 14:23:52] [INFO] CSV output: D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 14:23:52] [INFO] SQL target: SAPData.ZPPI189
+[2026-07-04 14:23:52] [INFO] Run SAP export script
+[2026-07-04 14:23:57] [INFO] cscript ZPPI189.vbs return code: 0
+[2026-07-04 14:23:57] [WARN] cscript ZPPI189.vbs stderr:
+D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs(50, 1) SAP Frontend Server: The control could not be found by id.
+[2026-07-04 14:26:30] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:27:04] [INFO] Exit Flask API trên cổng 6666
+[2026-07-04 14:27:04] [INFO] Exit Flask API trên cổng 6666
+[2026-07-04 14:27:11] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:27:12] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:27:24] [INFO] Run INT 211
+[2026-07-04 14:27:24] [INFO] Log file: Logs\2026\07\log_2026-07-04.txt
+[2026-07-04 14:27:24] [INFO] Start XuatDuLieuSAP
+[2026-07-04 14:27:24] [INFO] VBS script: D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs
+[2026-07-04 14:27:24] [INFO] Excel input: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX
+[2026-07-04 14:27:24] [INFO] CSV output: D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 14:27:24] [INFO] SQL target: SAPData.ZPPI189
+[2026-07-04 14:27:24] [INFO] Run SAP export script
+[2026-07-04 14:27:28] [INFO] cscript ZPPI189.vbs return code: 0
+[2026-07-04 14:27:28] [WARN] cscript ZPPI189.vbs stderr:
+D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs(69, 1) SAP Frontend Server: The control could not be found by id.
+[2026-07-04 14:27:44] [INFO] Run INT 211
+[2026-07-04 14:27:47] [INFO] Run INT 211
+[2026-07-04 14:27:50] [INFO] Exit Flask API trên cổng 6666
+[2026-07-04 14:27:50] [INFO] Exit Flask API trên cổng 6666
+[2026-07-04 14:27:52] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:27:53] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:27:57] [INFO] Run INT 211
+[2026-07-04 14:27:57] [INFO] Log file: Logs\2026\07\log_2026-07-04.txt
+[2026-07-04 14:27:57] [INFO] Start XuatDuLieuSAP
+[2026-07-04 14:27:57] [INFO] VBS script: D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs
+[2026-07-04 14:27:57] [INFO] Excel input: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX
+[2026-07-04 14:27:57] [INFO] CSV output: D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 14:27:57] [INFO] SQL target: SAPData.ZPPI189
+[2026-07-04 14:27:57] [INFO] Run SAP export script
+[2026-07-04 14:28:17] [INFO] cscript ZPPI189.vbs return code: 0
+[2026-07-04 14:28:38] [INFO] Exit Flask API trên cổng 6666
+[2026-07-04 14:28:38] [INFO] Exit Flask API trên cổng 6666
+[2026-07-04 14:28:40] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:28:41] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:28:50] [INFO] Run INT 211
+[2026-07-04 14:28:50] [INFO] Log file: Logs\2026\07\log_2026-07-04.txt
+[2026-07-04 14:28:50] [INFO] Start XuatDuLieuSAP
+[2026-07-04 14:28:50] [INFO] VBS script: D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs
+[2026-07-04 14:28:50] [INFO] Excel input: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX
+[2026-07-04 14:28:50] [INFO] CSV output: D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 14:28:50] [INFO] SQL target: SAPData.ZPPI189
+[2026-07-04 14:28:50] [INFO] Run SAP export script
+[2026-07-04 14:30:37] [INFO] cscript ZPPI189.vbs return code: 0
+[2026-07-04 14:30:37] [INFO] Excel file size: 262390 bytes
+[2026-07-04 14:30:37] [INFO] Read Excel file
+[2026-07-04 14:31:22] [INFO] Exit Flask API trên cổng 6666
+[2026-07-04 14:31:22] [INFO] Exit Flask API trên cổng 6666
+[2026-07-04 14:31:39] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:31:40] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:31:47] [INFO] Run INT 211
+[2026-07-04 14:31:47] [INFO] Log file: Logs\2026\07\log_2026-07-04.txt
+[2026-07-04 14:31:47] [INFO] Start XuatDuLieuSAP
+[2026-07-04 14:31:47] [INFO] VBS script: D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs
+[2026-07-04 14:31:47] [INFO] Excel input: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX
+[2026-07-04 14:31:47] [INFO] CSV output: D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 14:31:47] [INFO] SQL target: SAPData.ZPPI189
+[2026-07-04 14:31:47] [INFO] Run SAP export script
+[2026-07-04 14:32:07] [INFO] cscript ZPPI189.vbs return code: 0
+[2026-07-04 14:32:07] [INFO] Excel file size: 263686 bytes
+[2026-07-04 14:32:07] [INFO] Read Excel file
+[2026-07-04 14:32:08] [INFO] Excel rows: 2498
+[2026-07-04 14:32:08] [INFO] Write CSV file
+[2026-07-04 14:32:08] [INFO] Converted: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX -> D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 14:32:08] [INFO] Connect SQL and truncate ZPPI189_new
+[2026-07-04 14:32:08] [INFO] Truncated table ZPPI189_new
+[2026-07-04 14:32:08] [INFO] Run BCP import to ZPPI189_new
+[2026-07-04 14:32:08] [INFO] BCP command: bcp SAPData..ZPPI189_new in "D:\4.DEV\Python\AutoSAP\Data\INT189.csv" -c -C 65001 -t; -r\n -F 2 -S 10.239.1.54 -U sa -P 123456
+[2026-07-04 14:32:08] [INFO] bcp import return code: 0
+[2026-07-04 14:32:08] [INFO] bcp import stdout:
+Starting copy...
+1000 rows sent to SQL Server. Total sent: 1000
+1000 rows sent to SQL Server. Total sent: 2000
+
+2498 rows copied.
+Network packet size (bytes): 4096
+Clock Time (ms.) Total     : 187    Average : (13358.29 rows per sec.)
+[2026-07-04 14:32:08] [INFO] Deleting data...
+[2026-07-04 14:32:09] [INFO] Xóa dữ liệu thành công
+[2026-07-04 14:32:09] [INFO] Replace ZPPI189 from staging table ZPPI189_new
+[2026-07-04 14:32:09] [INFO] Replaced target table from staging
+[2026-07-04 14:32:09] [INFO] Cập nhật thời gian làm mới thành công
+[2026-07-04 14:32:09] [INFO] Cập nhật thời gian thành công
+[2026-07-04 14:32:09] [INFO] Finished XuatDuLieuSAP successfully
+[2026-07-04 14:37:31] [INFO] Run INT 211
+[2026-07-04 14:37:31] [INFO] Log file: Logs\2026\07\log_2026-07-04.txt
+[2026-07-04 14:37:31] [INFO] Start XuatDuLieuSAP
+[2026-07-04 14:37:31] [INFO] VBS script: D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs
+[2026-07-04 14:37:31] [INFO] Excel input: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX
+[2026-07-04 14:37:31] [INFO] CSV output: D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 14:37:31] [INFO] SQL target: SAPData.ZPPI189
+[2026-07-04 14:37:31] [INFO] Run SAP export script
+[2026-07-04 14:37:51] [INFO] cscript ZPPI189.vbs return code: 0
+[2026-07-04 14:37:51] [INFO] Excel file size: 263982 bytes
+[2026-07-04 14:37:51] [INFO] Read Excel file
+[2026-07-04 14:37:51] [INFO] Excel rows: 2501
+[2026-07-04 14:37:51] [INFO] Write CSV file
+[2026-07-04 14:37:51] [INFO] Converted: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX -> D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 14:37:51] [INFO] Connect SQL and truncate ZPPI189_new
+[2026-07-04 14:37:51] [INFO] Truncated table ZPPI189_new
+[2026-07-04 14:37:51] [INFO] Run BCP import to ZPPI189_new
+[2026-07-04 14:37:51] [INFO] BCP command: bcp SAPData..ZPPI189_new in "D:\4.DEV\Python\AutoSAP\Data\INT189.csv" -c -C 65001 -t; -r\n -F 2 -S 10.239.1.54 -U sa -P 123456
+[2026-07-04 14:37:52] [INFO] bcp import return code: 0
+[2026-07-04 14:37:52] [INFO] bcp import stdout:
+Starting copy...
+1000 rows sent to SQL Server. Total sent: 1000
+1000 rows sent to SQL Server. Total sent: 2000
+
+2501 rows copied.
+Network packet size (bytes): 4096
+Clock Time (ms.) Total     : 172    Average : (14540.70 rows per sec.)
+[2026-07-04 14:37:52] [INFO] Deleting data...
+[2026-07-04 14:37:53] [INFO] Xóa dữ liệu thành công
+[2026-07-04 14:37:53] [INFO] Replace ZPPI189 from staging table ZPPI189_new
+[2026-07-04 14:37:53] [INFO] Replaced target table from staging
+[2026-07-04 14:37:53] [INFO] Cập nhật thời gian làm mới thành công
+[2026-07-04 14:37:53] [INFO] Cập nhật thời gian thành công
+[2026-07-04 14:37:53] [INFO] Finished XuatDuLieuSAP successfully
+[2026-07-04 14:39:20] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:39:34] [INFO] Run INT 211
+[2026-07-04 14:39:34] [INFO] Log file: Logs\2026\07\log_2026-07-04.txt
+[2026-07-04 14:39:34] [INFO] Start XuatDuLieuSAP
+[2026-07-04 14:39:34] [INFO] VBS script: D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs
+[2026-07-04 14:39:34] [INFO] Excel input: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX
+[2026-07-04 14:39:34] [INFO] CSV output: D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 14:39:34] [INFO] SQL target: SAPData.ZPPI189
+[2026-07-04 14:39:34] [INFO] Run SAP export script
+[2026-07-04 14:39:55] [INFO] cscript ZPPI189.vbs return code: 0
+[2026-07-04 14:39:55] [INFO] Excel file size: 266002 bytes
+[2026-07-04 14:39:55] [INFO] Read Excel file
+[2026-07-04 14:39:55] [INFO] Excel rows: 2515
+[2026-07-04 14:39:55] [INFO] Write CSV file
+[2026-07-04 14:39:55] [INFO] Converted: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX -> D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 14:39:55] [INFO] Connect SQL and truncate ZPPI189_new
+[2026-07-04 14:39:55] [INFO] Truncated table ZPPI189_new
+[2026-07-04 14:39:55] [INFO] Run BCP import to ZPPI189_new
+[2026-07-04 14:39:55] [INFO] BCP command: bcp SAPData..ZPPI189_new in "D:\4.DEV\Python\AutoSAP\Data\INT189.csv" -c -C 65001 -t; -r\n -F 2 -S 10.239.1.54 -U sa -P 123456
+[2026-07-04 14:39:56] [INFO] bcp import return code: 0
+[2026-07-04 14:39:56] [INFO] bcp import stdout:
+Starting copy...
+1000 rows sent to SQL Server. Total sent: 1000
+1000 rows sent to SQL Server. Total sent: 2000
+
+2515 rows copied.
+Network packet size (bytes): 4096
+Clock Time (ms.) Total     : 187    Average : (13449.20 rows per sec.)
+[2026-07-04 14:39:56] [INFO] Deleting data...
+[2026-07-04 14:39:56] [INFO] Xóa dữ liệu thành công
+[2026-07-04 14:39:56] [INFO] Replace ZPPI189 from staging table ZPPI189_new
+[2026-07-04 14:39:56] [INFO] Replaced target table from staging
+[2026-07-04 14:39:56] [INFO] Cập nhật thời gian làm mới thành công
+[2026-07-04 14:39:56] [INFO] Cập nhật thời gian thành công
+[2026-07-04 14:39:56] [INFO] Finished XuatDuLieuSAP successfully
+[2026-07-04 14:42:16] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 14:42:17] [INFO] Exit Flask API trên cổng 6666
+[2026-07-04 14:42:17] [INFO] Exit Flask API trên cổng 6666
+[2026-07-04 15:02:01] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 15:02:02] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 15:02:06] [INFO] Run INT 211
+[2026-07-04 15:02:06] [INFO] Check trạng thái INT189
+[2026-07-04 15:02:06] [INFO] Dữ liệu gần nhất: ID=5058, SYSTEM=INT189, TIME=14:50 04-07-2026
+[2026-07-04 15:02:06] [INFO] Log file: Logs\2026\07\log_2026-07-04.txt
+[2026-07-04 15:02:06] [INFO] Start XuatDuLieuSAP
+[2026-07-04 15:02:06] [INFO] VBS script: D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs
+[2026-07-04 15:02:06] [INFO] Excel input: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX
+[2026-07-04 15:02:06] [INFO] CSV output: D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 15:02:06] [INFO] SQL target: SAPData.ZPPI189
+[2026-07-04 15:02:06] [INFO] Run SAP export script
+[2026-07-04 15:02:27] [INFO] cscript ZPPI189.vbs return code: 0
+[2026-07-04 15:02:27] [INFO] Excel file size: 274506 bytes
+[2026-07-04 15:02:27] [INFO] Read Excel file
+[2026-07-04 15:02:27] [INFO] Excel rows: 2601
+[2026-07-04 15:02:27] [INFO] Write CSV file
+[2026-07-04 15:02:27] [INFO] Converted: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX -> D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 15:02:27] [INFO] Connect SQL and truncate ZPPI189_new
+[2026-07-04 15:02:27] [INFO] Truncated table ZPPI189_new
+[2026-07-04 15:02:27] [INFO] Run BCP import to ZPPI189_new
+[2026-07-04 15:02:27] [INFO] BCP command: bcp SAPData..ZPPI189_new in "D:\4.DEV\Python\AutoSAP\Data\INT189.csv" -c -C 65001 -t; -r\n -F 2 -S 10.239.1.54 -U sa -P 123456
+[2026-07-04 15:02:28] [INFO] bcp import return code: 0
+[2026-07-04 15:02:28] [INFO] bcp import stdout:
+Starting copy...
+1000 rows sent to SQL Server. Total sent: 1000
+1000 rows sent to SQL Server. Total sent: 2000
+
+2601 rows copied.
+Network packet size (bytes): 4096
+Clock Time (ms.) Total     : 218    Average : (11931.19 rows per sec.)
+[2026-07-04 15:02:28] [INFO] Deleting data...
+[2026-07-04 15:02:28] [INFO] Xóa dữ liệu thành công
+[2026-07-04 15:02:28] [INFO] Replace ZPPI189 from staging table ZPPI189_new
+[2026-07-04 15:02:28] [INFO] Replaced target table from staging
+[2026-07-04 15:02:28] [INFO] Cập nhật thời gian làm mới thành công
+[2026-07-04 15:02:29] [INFO] Cập nhật thời gian thành công
+[2026-07-04 15:02:29] [INFO] Finished XuatDuLieuSAP successfully
+[2026-07-04 15:40:16] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 15:42:12] [INFO] Exit Flask API trên cổng 6666
+[2026-07-04 15:42:12] [INFO] Exit Flask API trên cổng 6666
+[2026-07-04 15:42:21] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 15:42:23] [INFO] Khởi động Flask API trên cổng 6666
+[2026-07-04 15:42:31] [INFO] Run INT 211
+[2026-07-04 15:42:31] [INFO] Check trạng thái INT189
+[2026-07-04 15:42:59] [INFO] Dữ liệu gần nhất: ID=5062, SYSTEM=INT189, TIME=error
+[2026-07-04 15:43:20] [INFO] Log file: Logs\2026\07\log_2026-07-04.txt
+[2026-07-04 15:43:20] [INFO] Start XuatDuLieuSAP
+[2026-07-04 15:43:20] [INFO] VBS script: D:\4.DEV\Python\AutoSAP\Script\ZPPI189.vbs
+[2026-07-04 15:43:20] [INFO] Excel input: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX
+[2026-07-04 15:43:20] [INFO] CSV output: D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 15:43:20] [INFO] SQL target: SAPData.ZPPI189
+[2026-07-04 15:43:20] [INFO] Run SAP export script
+[2026-07-04 15:43:41] [INFO] cscript ZPPI189.vbs return code: 0
+[2026-07-04 15:43:41] [INFO] Excel file size: 281718 bytes
+[2026-07-04 15:43:41] [INFO] Read Excel file
+[2026-07-04 15:43:43] [INFO] Excel rows: 2677
+[2026-07-04 15:43:43] [INFO] Write CSV file
+[2026-07-04 15:43:43] [INFO] Converted: D:\4.DEV\Python\AutoSAP\Data\INT189.XLSX -> D:\4.DEV\Python\AutoSAP\Data\INT189.csv
+[2026-07-04 15:43:43] [INFO] Connect SQL and truncate ZPPI189_new
+[2026-07-04 15:43:43] [INFO] Truncated table ZPPI189_new
+[2026-07-04 15:43:43] [INFO] Run BCP import to ZPPI189_new
+[2026-07-04 15:43:43] [INFO] BCP command: bcp SAPData..ZPPI189_new in "D:\4.DEV\Python\AutoSAP\Data\INT189.csv" -c -C 65001 -t; -r\n -F 2 -S 10.239.1.54 -U sa -P 123456
+[2026-07-04 15:43:43] [INFO] bcp import return code: 0
+[2026-07-04 15:43:43] [INFO] bcp import stdout:
+Starting copy...
+1000 rows sent to SQL Server. Total sent: 1000
+1000 rows sent to SQL Server. Total sent: 2000
+
+2677 rows copied.
+Network packet size (bytes): 4096
+Clock Time (ms.) Total     : 219    Average : (12223.74 rows per sec.)
+[2026-07-04 15:43:43] [INFO] Deleting data...
+[2026-07-04 15:43:44] [INFO] Xóa dữ liệu thành công
+[2026-07-04 15:43:44] [INFO] Replace ZPPI189 from staging table ZPPI189_new
+[2026-07-04 15:43:44] [INFO] Replaced target table from staging
+[2026-07-04 15:43:48] [INFO] Cập nhật thời gian làm mới thành công
+[2026-07-04 15:43:48] [INFO] Cập nhật thời gian thành công
+[2026-07-04 15:43:48] [INFO] Finished XuatDuLieuSAP successfully
